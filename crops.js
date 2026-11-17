@@ -1,3 +1,4 @@
+// AgriSmart crop knowledge library. Educational guidance; verify all practices locally.
 window.AGRISMART_CROPS = [
   {
     "id": "cotton",
