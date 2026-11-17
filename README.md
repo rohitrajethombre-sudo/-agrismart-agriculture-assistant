@@ -8,8 +8,15 @@ AgriSmart is a small, community-built open-source project providing practical ag
 - Spray dilution calculator using a product-label dose entered by the user
 - Acre, hectare and guntha converter
 - Introductory N, P, K and S nutrient learning notes
+- Searchable bilingual crop library for cotton, ginger, garlic, soybean, wheat, onion and sugarcane
+- Crop growth stages, nutrient and water management, common risks and harvest guidance
+- Agricultural reference portal links
 - Marathi and English interface
 - Responsive layout for mobile and desktop
+
+## Crop library scope
+
+Crop profiles are educational summaries, not field-specific prescriptions. Nutrient and irrigation decisions vary by soil, season, variety and local conditions. Confirm recommendations with the relevant Krishi Vigyan Kendra (KVK), state agricultural university or qualified local adviser. Pest and disease lists are monitoring prompts, not diagnoses. The project does not provide universal pesticide or fertilizer doses.
 
 ## Run locally
 
