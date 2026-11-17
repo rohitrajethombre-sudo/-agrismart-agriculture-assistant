@@ -371,6 +371,26 @@ window.AGRISMART_CROPS = [
           "गड्ड्यांना इजा न करता उपटून सावलीत व हवेशीर ठिकाणी सुकवा. कडक उन्हात किंवा ओलसर परिस्थितीत सुकवणी टाळा.",
           "पूर्ण सुकलेले, निरोगी गड्डेच स्वच्छ, कोरड्या व हवेशीर साठवण जागेत ठेवा; खराब गड्डे आधी वेगळे करा."
         ]
+      },
+      {
+        "title": "Major pest and disease identification and IPM",
+        "titleMr": "प्रमुख कीड व रोग: ओळख आणि एकात्मिक व्यवस्थापन",
+        "points": [
+          "Thrips: tiny, slender insects hide between inner leaves and leaf sheaths. Silvery streaks or patches, leaf curling and tip drying are typical. Inspect the inner leaf whorl; conserve natural enemies, remove alternate-host weeds and avoid repeated calendar sprays.",
+          "Purple blotch: small water-soaked or pale lesions enlarge into oval, sunken purple-brown spots, often with yellow margins; lesions may girdle leaves and cause tip dieback. Use healthy cloves, rotate with non-host crops, maintain drainage and spacing, and remove infected residues.",
+          "Stemphylium leaf blight: yellow-orange flecks develop into elongated, spindle-shaped brown lesions, often with a yellow or pinkish margin; lesions merge and blight leaves. Distinguish it from purple blotch before choosing a treatment.",
+          "Basal rot / white rot and other bulb rots: yellowing, stunting, root loss and rotting at the plate or bulb base may occur; white fungal growth or small dark resting bodies may be present in some rots. Remove affected plants and soil-contaminated debris; do not save affected bulbs as seed. Confirm the cause because symptoms overlap.",
+          "Use clean planting cloves, well-drained beds, crop rotation and field sanitation. Where biological products are locally registered and recommended, use them as directed; do not assume a bio-agent cures an established bulb rot.",
+          "If intervention is justified, identify the pest or pathogen first and use only a currently registered garlic-use product according to its label, local university advisory, pre-harvest interval and safety instructions."
+        ],
+        "pointsMr": [
+          "फुलकिडे: अतिशय लहान, निमुळते कीटक आतील पानांच्या घडीत व पानांच्या आवरणात लपतात. पानांवर चंदेरी ओरखडे/डाग, पाने वाकडी होणे व टोक वाळणे ही लक्षणे दिसतात. आतील पानांची घडी तपासा; मित्रकीटक जपा, पर्यायी यजमान तणे काढा आणि ठरावीक दिनदर्शिकेनुसार वारंवार फवारणी करू नका.",
+          "जांभळा करपा: सुरुवातीचे फिकट किंवा पाणचट डाग वाढून अंडाकृती, खोल गेलेले जांभळट-तपकिरी डाग होतात; भोवती पिवळसर कडा दिसू शकते. डाग पानाभोवती पसरल्यास पाने वाळतात. निरोगी पाकळ्या वापरा, बिगर यजमान पिकांसोबत फेरपालट करा, निचरा व योग्य अंतर ठेवा आणि रोगट अवशेष काढा.",
+          "स्टेमफिलियम पानकरपा: पिवळसर-नारिंगी ठिपके पुढे लांबट, धुरीसारखे तपकिरी डाग बनतात; भोवती पिवळसर किंवा गुलाबीसर किनार असू शकते. डाग एकत्र येऊन पाने करपतात. उपाय निवडण्यापूर्वी जांभळ्या करप्यापासून फरक ओळखा.",
+          "मुळाशी/गड्ड्याची कुज: पाने पिवळी पडणे, वाढ खुंटणे, मुळे कमी होणे आणि गड्ड्याच्या तळाशी कुज दिसू शकते. काही कुज रोगांत पांढरी बुरशी किंवा लहान काळे टिकाऊ कण दिसतात. बाधित झाडे व माती लागलेले अवशेष काढा; बाधित गड्डे बेण्यासाठी ठेवू नका. लक्षणे सारखी असल्याने रोगनिदान आवश्यक आहे.",
+          "स्वच्छ लागवड पाकळ्या, चांगला निचरा, पीक फेरपालट व शेत स्वच्छता राखा. स्थानिक पातळीवर नोंदणीकृत व शिफारस केलेली जैविक उत्पादने असल्यास लेबलप्रमाणे वापरा; प्रस्थापित गड्डा-कुज जैविक उत्पादनाने हमखास बरी होते असे समजू नका.",
+          "उपायाची गरज असल्यास प्रथम कीड/रोग निश्चित करा. लसणासाठी सध्या नोंदणीकृत उत्पादनच स्थानिक कृषी विद्यापीठाच्या सल्ल्यानुसार, लेबलवरील मात्रा, काढणीपूर्व प्रतीक्षा कालावधी व सुरक्षितता पाळून वापरा."
+        ]
       }
     ]
   },
@@ -468,6 +488,28 @@ window.AGRISMART_CROPS = [
           "बहुतेक शेंगा परिपक्व होऊन पाने पिवळी झाल्यावर काढणी करा. अनावश्यक विलंब केल्यास वाळलेल्या शेंगा फुटून दाणे गळू शकतात.",
           "काढलेली झाडे किंवा मळणी केलेले दाणे सुरक्षित साठवण ओलावा पातळीपर्यंत काळजीपूर्वक वाळवा; माती व दगड मिसळू देऊ नका.",
           "स्वच्छ व कोरडे दाणे योग्य ओलावा नियंत्रण व कीड व्यवस्थापन असलेल्या साठवणीत ठेवा. पेरणीसाठीचे बियाणे वेगळे ठेवून वाणाची ओळख जपा."
+        ]
+      },
+      {
+        "title": "Major pest and disease identification and IPM",
+        "titleMr": "प्रमुख कीड व रोग: ओळख आणि एकात्मिक व्यवस्थापन",
+        "points": [
+          "Stem fly: early plants may wilt or become stunted; split the stem near the base and look for tunnelling or a maggot. Maintain recommended sowing time and plant stand, remove badly infested plants, and monitor early after emergence.",
+          "Girdle beetle: adults make characteristic rings or girdles on stems or petioles; leaves above the ring may droop or dry. Inspect stems during vegetative growth and remove/destroy infested plant parts where practical.",
+          "Defoliators such as green semilooper and tobacco caterpillar: irregular holes, skeletonised leaves and visible larvae or droppings. Scout the crop frequently, hand-pick egg masses/young larvae in small plots, conserve predators and parasitoids, and use Bt or other registered selective options only when locally advised and threshold is reached.",
+          "Yellow mosaic: irregular yellow and green mosaic patches, often with stunting; whiteflies can transmit the virus. Use locally recommended tolerant/resistant varieties, rogue early symptomatic plants where advised, manage weeds that host the virus/vector and monitor whiteflies. Insecticide sprays do not cure infected plants.",
+          "Rust: tiny pale spots develop into powdery tan to reddish-brown pustules, commonly on leaf surfaces; severe infection causes premature leaf drying. Confirm diagnosis, use locally recommended varieties and follow current regional disease advisories.",
+          "Charcoal rot / root and stem rots: plants may wilt or mature early; roots and lower stems show dry decay and tiny black microsclerotia in charcoal rot. Reduce plant stress, use healthy seed, maintain balanced nutrition and avoid continuous soybean in the same field.",
+          "Scout by crop stage and record pest incidence. Do not spray by calendar. If an economic threshold is reached, use only a currently registered soybean-use product recommended by the local agricultural university or extension service, following the label and pollinator-safety directions."
+        ],
+        "pointsMr": [
+          "खोडमाशी: सुरुवातीची झाडे कोमेजतात किंवा खुंटतात. खोडाचा बुंध्याजवळील भाग चिरून आत अळीने केलेली बोगदा/खाण्याची खूण तपासा. शिफारशीत वेळेत पेरणी व योग्य रोपसंख्या ठेवा, तीव्र बाधित झाडे काढा आणि उगवणीनंतर लवकर निरीक्षण करा.",
+          "खोडकिडा/गर्डल बीटल: प्रौढ कीटक खोड किंवा पानांच्या देठाभोवती वलयाकार काप/खूण करतात; त्या भागाच्या वरची पाने लोंबू किंवा वाळू शकतात. शाकीय वाढीत खोड तपासा व शक्य असल्यास बाधित भाग काढून नष्ट करा.",
+          "हिरवी अर्धगोल अळी व तंबाखूवरील पाने खाणारी अळी: पानांना अनियमित छिद्रे, जाळीसारखी खाल्लेली पाने, अळ्या किंवा विष्ठा दिसते. नियमित निरीक्षण करा; लहान क्षेत्रात अंडी समूह व लहान अळ्या हाताने नष्ट करा, मित्रकीटक जपा. आर्थिक नुकसान पातळी व स्थानिक सल्ल्यानुसारच Bt किंवा निवडक नोंदणीकृत उपाय वापरा.",
+          "पिवळा मोझॅक: पानांवर अनियमित पिवळे-हिरवे ठिपके/मोझॅक व वाढ खुंटणे दिसते; पांढरी माशी विषाणू पसरवू शकते. स्थानिक शिफारशीतील सहनशील/प्रतिरोधक वाण वापरा, सल्ल्यानुसार सुरुवातीची बाधित झाडे काढा, विषाणू व वाहकाचे यजमान तण नियंत्रित करा आणि पांढऱ्या माशीचे निरीक्षण करा. फवारणीने बाधित झाड बरे होत नाही.",
+          "तांबेरा: पानांवर सुरुवातीला फिकट ठिपके व नंतर पावडरीसारखे पिवळसर-तपकिरी ते लालसर बीजाणूंचे फोड दिसतात. तीव्र प्रादुर्भावात पाने अकाली वाळतात. रोगनिदान करून स्थानिक रोगसल्ला पाळा.",
+          "चारकोल रॉट/मुळे व खोड कुज: झाडे कोमेजणे किंवा अकाली पक्व होणे दिसू शकते. चारकोल रॉटमध्ये मुळे व खोडाचा खालचा भाग कोरडा कुजतो आणि कोळशासारखे अतिसूक्ष्म काळे कण दिसू शकतात. पिकावरील ताण कमी करा, निरोगी बियाणे वापरा, संतुलित खत द्या आणि त्याच शेतात सतत सोयाबीन घेणे टाळा.",
+          "पिकाच्या अवस्थेनुसार निरीक्षण करून किडीची संख्या नोंदवा. ठरावीक दिनदर्शिकेनुसार फवारणी करू नका. आर्थिक नुकसान पातळी गाठल्यासच स्थानिक कृषी विद्यापीठ/कृषी विस्तार यंत्रणेने शिफारस केलेले सोयाबीनसाठी नोंदणीकृत उत्पादन लेबल व परागीभवन करणाऱ्या कीटकांच्या सुरक्षिततेच्या सूचनांनुसार वापरा."
         ]
       }
     ]
@@ -802,6 +844,8 @@ window.AGRISMART_CROP_SOURCES = [
 {label:"PPQS — Pink Bollworm IPM Package",url:"https://ppqs.gov.in/sites/default/files/pop_for_pbw_of_cotton.pdf"},
 {label:"ICAR — Kharif Agro-Advisories 2025 (Ginger)",url:"https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"},
 {label:"NIPHM — Ginger IPM Package",url:"https://niphm.gov.in/IPMPackages/Ginger.pdf"},
+{label:"NIPHM — Garlic IPM Package",url:"https://niphm.gov.in/IPMPackages/Garlic.pdf"},
+{label:"NIPHM — Soybean IPM Package",url:"https://niphm.gov.in/IPMPackages/Soyabean.pdf"},
 {label:"TNAU Agritech Portal — crop production guides",url:"https://agritech.tnau.ac.in/"},
 {label:"Mahatma Phule Krishi Vidyapeeth (MPKV)",url:"https://mpkv.ac.in/"},
 {label:"Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV)",url:"https://www.vnmkv.ac.in/"},
