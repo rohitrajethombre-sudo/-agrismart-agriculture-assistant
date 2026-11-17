@@ -72,6 +72,20 @@
       </article>
     </section>
 
+    <section class="crop-library" aria-labelledby="cropLibraryTitle">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="cropEyebrow">CROP KNOWLEDGE LIBRARY</p>
+        <h2 id="cropLibraryTitle" data-i18n="cropTitle">Explore crop guides</h2>
+        <p class="muted" data-i18n="cropIntro">Bilingual learning notes for seven important crops.</p>
+      </div>
+      <label for="cropSearch" data-i18n="cropSearchLabel">Search crops</label>
+      <input id="cropSearch" type="search" placeholder="Search by crop name / पिकाचे नाव शोधा">
+      <div id="cropCards" class="crop-grid" aria-live="polite"></div>
+      <article id="cropDetail" class="panel crop-detail" hidden aria-live="polite"></article>
+      <p class="small crop-safety" data-i18n="cropSafety">Crop guidance is educational. Confirm local recommendations with your KVK or agricultural university before taking action.</p>
+      <div id="cropSources" class="crop-sources"></div>
+    </section>
+
     <section class="panel about">
       <h2 data-i18n="aboutTitle">About this project</h2>
       <p data-i18n="aboutText">AgriSmart is a community-built, open-source learning project. Its goal is to make basic farm calculations and agriculture education easier to access.</p>
@@ -80,6 +94,6 @@
   </main>
 
   <footer><span>AgriSmart · Open source</span><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></footer>
-  <script src="app.js"></script>
+  <script src="crops.js"></script>\n  <script src="app.js"></script>
 </body>
 </html>

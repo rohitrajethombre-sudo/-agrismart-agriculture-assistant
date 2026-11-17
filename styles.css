@@ -7,3 +7,22 @@
 .tools-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 4px 18px #193d2410}.panel h2{margin:0 0 8px;font-size:21px}.muted,.small{color:var(--muted)}.muted{font-size:14px;min-height:42px}.small{font-size:13px}
 label{display:block;font-weight:650;font-size:14px;margin:14px 0 6px}input,select{width:100%;padding:12px;border:1px solid #cbd9cf;border-radius:9px;font:inherit;background:#fff;color:var(--ink)}button{margin-top:16px}button:hover{background:var(--green-dark)}.result{display:block;margin-top:13px;color:var(--green-dark);font-weight:750;min-height:25px}.guide ul{padding-left:20px}.guide li{margin:9px 0}.about{margin:22px 0 45px}footer{display:flex;justify-content:space-between;padding:22px 5%;background:#edf4ee;color:var(--muted);font-size:14px}footer a{color:var(--green-dark)}
 @media(max-width:700px){.tools-grid{grid-template-columns:1fr}.hero{padding-top:36px}.muted{min-height:0}}
+
+/* Crop knowledge library */
+.crop-library{margin:28px 0 36px}
+.section-heading{max-width:700px}
+.section-heading h2{font-size:clamp(25px,4vw,34px);margin:4px 0}
+.crop-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:16px 0}
+.crop-card{margin:0;min-height:76px;background:#fff;color:var(--green-dark);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:17px}
+.crop-card:hover,.crop-card:focus-visible{background:var(--mint);outline:2px solid var(--green)}
+.crop-detail{margin:18px 0;scroll-margin-top:18px}
+.crop-detail h3{margin:20px 0 6px;font-size:17px;color:var(--green-dark)}
+.crop-detail p{margin:7px 0}
+.crop-detail li{margin:5px 0}
+.crop-season{color:var(--muted);font-size:13px;font-weight:650}
+.crop-safety{margin:14px 0}
+.crop-sources{margin:18px 0 32px;padding:16px 20px;background:#edf4ee;border-radius:12px}
+.crop-sources h3{margin:0 0 8px;font-size:16px}
+.crop-sources ul{margin:0;padding-left:20px}
+.crop-sources a{color:var(--green-dark)}
+@media(max-width:700px){.crop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
