@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AgriSmart: practical agriculture calculators and learning resources for farmers.">
+  <title>AgriSmart — Agriculture Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><span class="brand-mark">🌱</span><div><strong>AgriSmart</strong><small data-i18n="tagline">Practical tools for better farming</small></div></div>
+    <button id="languageToggle" class="language-button" type="button" aria-label="Switch language">मराठी</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow" data-i18n="eyebrow">OPEN AGRICULTURE TOOLKIT</p>
+      <h1 data-i18n="heroTitle">Make farm calculations simpler.</h1>
+      <p data-i18n="heroText">Straightforward calculators and practical learning resources for farmers, students and agriculture educators.</p>
+      <span class="notice" data-i18n="beta">Early version · Feedback welcome</span>
+    </section>
+
+    <section class="tools-grid" aria-label="Agriculture tools">
+      <article class="panel">
+        <h2 data-i18n="fertTitle">Fertilizer quantity calculator</h2>
+        <p class="muted" data-i18n="fertHelp">Enter the rate recommended by your soil test, agronomist or product guidance.</p>
+        <label for="fertRate" data-i18n="rateLabel">Recommended rate (kg per acre)</label>
+        <input id="fertRate" type="number" min="0" step="any" placeholder="e.g. 25">
+        <label for="fertArea" data-i18n="areaLabel">Farm area (acres)</label>
+        <input id="fertArea" type="number" min="0" step="any" placeholder="e.g. 2.5">
+        <button id="fertCalc" type="button" data-i18n="calculate">Calculate</button>
+        <output id="fertResult" class="result" aria-live="polite"></output>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="sprayTitle">Spray dilution calculator</h2>
+        <p class="muted" data-i18n="sprayHelp">Use only the dose stated on the registered product label or by a qualified adviser.</p>
+        <label for="sprayDose" data-i18n="doseLabel">Label dose (ml per litre)</label>
+        <input id="sprayDose" type="number" min="0" step="any" placeholder="e.g. 1.5">
+        <label for="sprayWater" data-i18n="waterLabel">Water volume (litres)</label>
+        <input id="sprayWater" type="number" min="0" step="any" placeholder="e.g. 15">
+        <button id="sprayCalc" type="button" data-i18n="calculate">Calculate</button>
+        <output id="sprayResult" class="result" aria-live="polite"></output>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="convertTitle">Land area converter</h2>
+        <p class="muted" data-i18n="convertHelp">Convert common land-area units.</p>
+        <label for="areaValue" data-i18n="valueLabel">Value</label>
+        <input id="areaValue" type="number" min="0" step="any" placeholder="e.g. 1">
+        <label for="areaUnit" data-i18n="unitLabel">Unit</label>
+        <select id="areaUnit">
+          <option value="acre">Acre</option>
+          <option value="hectare">Hectare</option>
+          <option value="guntha">Guntha</option>
+        </select>
+        <button id="areaCalc" type="button" data-i18n="convert">Convert</button>
+        <output id="areaResult" class="result" aria-live="polite"></output>
+      </article>
+
+      <article class="panel guide">
+        <h2 data-i18n="guideTitle">Nutrient learning guide</h2>
+        <p data-i18n="guideText">Learn the general roles of essential plant nutrients. Symptoms can overlap and are not a reliable diagnosis on their own.</p>
+        <ul>
+          <li><strong>N — Nitrogen:</strong> <span data-i18n="nitrogen">supports leafy growth and chlorophyll formation.</span></li>
+          <li><strong>P — Phosphorus:</strong> <span data-i18n="phosphorus">supports energy transfer, roots and early development.</span></li>
+          <li><strong>K — Potassium:</strong> <span data-i18n="potassium">supports water regulation, enzyme activity and crop quality.</span></li>
+          <li><strong>S — Sulphur:</strong> <span data-i18n="sulphur">supports protein formation and several plant processes.</span></li>
+        </ul>
+        <p class="small" data-i18n="guideCaution">Confirm suspected deficiencies with field assessment and, where possible, soil or plant analysis.</p>
+      </article>
+    </section>
+
+    <section class="panel about">
+      <h2 data-i18n="aboutTitle">About this project</h2>
+      <p data-i18n="aboutText">AgriSmart is a community-built, open-source learning project. Its goal is to make basic farm calculations and agriculture education easier to access.</p>
+      <p class="small" data-i18n="disclaimer">Important: AgriSmart does not prescribe fertilizer or pesticide doses. Always follow local regulations, product labels, soil-test recommendations and qualified agricultural advice. Check units and calculations before acting.</p>
+    </section>
+  </main>
+
+  <footer><span>AgriSmart · Open source</span><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
