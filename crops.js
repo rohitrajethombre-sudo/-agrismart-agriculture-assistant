@@ -1,4 +1,3 @@
-// AgriSmart crop knowledge library. Educational guidance; verify all practices locally.
 window.AGRISMART_CROPS = [
   {
     "id": "cotton",
@@ -623,6 +622,54 @@ window.AGRISMART_CROPS = [
           "मळणी व स्वच्छता काळजीपूर्वक करा. पोत्यात भरण्यापूर्वी स्थानिक साठवण मार्गदर्शनानुसार दाणे सुरक्षित ओलावा पातळीपर्यंत वाळवा.",
           "स्वच्छ, कोरड्या व कीडमुक्त कोठारात उंच पॅलेटवर पोती किंवा डबे ठेवा; ओलावा, कीड व उंदीर यांची नियमित तपासणी करा."
         ]
+      },
+      {
+        "title": "Rusts and foliar disease identification",
+        "titleMr": "तांबेरा व पानांवरील रोगांची ओळख",
+        "points": [
+          "Yellow rust: look for yellow-orange powdery pustules in narrow stripes along leaves; it is favoured by cool, moist weather. Brown rust usually forms scattered orange-brown pustules, while black rust has darker elongated pustules, often on stems and leaf sheaths.",
+          "Powdery mildew appears as white powdery growth on leaf surfaces. Spot blotch causes brown, elongated or irregular lesions, often becoming more severe under warm, humid conditions.",
+          "Scout several parts of the field, including lower and upper leaves. Record the variety, crop stage and spread; seek local diagnosis when symptoms are unclear because nutrient injury and herbicide damage can resemble disease.",
+          "Use locally recommended resistant or tolerant varieties, timely sowing, balanced fertilizer and suitable crop rotation. If disease risk warrants treatment, use only a currently registered product recommended by the local agriculture university or extension service, strictly as labelled."
+        ],
+        "pointsMr": [
+          "पिवळ्या तांबेर्‍यात पानांवर रेषांमध्ये पिवळसर-नारिंगी भुकटीसारखी फोडे दिसतात; थंड व दमट हवेत रोग वाढू शकतो. तपकिरी तांबेर्‍यात विखुरलेली नारिंगी-तपकिरी फोडे, तर काळ्या तांबेर्‍यात पानांच्या आवरणावर किंवा खोडावर गडद लांबट फोडे दिसू शकतात.",
+          "भुरी रोगात पानांवर पांढरी भुकटीसारखी वाढ दिसते. स्पॉट ब्लॉचमध्ये तपकिरी, लांबट किंवा अनियमित डाग पडतात; उबदार व दमट हवेत तीव्रता वाढू शकते.",
+          "शेतातील अनेक ठिकाणी खालची व वरची पाने तपासा. वाण, पीक अवस्था व रोगाचा प्रसार नोंदवा. लक्षणे स्पष्ट नसल्यास स्थानिक निदान घ्या; अन्नद्रव्य कमतरता किंवा तणनाशकाची इजा रोगासारखी दिसू शकते.",
+          "स्थानिक शिफारशीतील प्रतिकारक्षम किंवा सहनशील वाण, वेळेवर पेरणी, संतुलित खत व योग्य पीक फेरपालट वापरा. रोगजोखीम व स्थानिक सल्ल्यानुसारच सध्या नोंदणीकृत उत्पादन लेबलप्रमाणे वापरा."
+        ]
+      },
+      {
+        "title": "Loose smut, Karnal bunt and seed health",
+        "titleMr": "काजळी, कर्नाल बंट व बियाण्याचे आरोग्य",
+        "points": [
+          "Loose smut: affected earheads emerge earlier and contain black powdery spores instead of normal grain; the spores may disperse, leaving a bare or ragged ear.",
+          "Karnal bunt may affect only some grains in an ear. Infected kernels show partial blackening and a fishy smell; confirm suspected cases through an authorized laboratory or local plant pathology service.",
+          "Use certified, disease-free seed and varieties recommended for the area. Follow the current seed-treatment recommendation from the seed label or local university; do not improvise chemical mixtures.",
+          "Do not save seed from affected patches. Clean equipment and avoid moving contaminated seed or grain between fields."
+        ],
+        "pointsMr": [
+          "काजळी रोगात बाधित ओंबी सामान्य ओंबीपेक्षा आधी बाहेर येऊ शकते आणि दाण्यांऐवजी काळी भुकटीसारखी बीजाणूंची पिशवी दिसते; नंतर ती फुटून ओंबी विरळ किंवा उघडी राहू शकते.",
+          "कर्नाल बंटमध्ये ओंबीतील काही दाणे अंशतः काळे पडतात व माशासारखा वास येऊ शकतो. संशयित नमुन्याची अधिकृत प्रयोगशाळा किंवा स्थानिक वनस्पती रोगतज्ज्ञांकडून खात्री करा.",
+          "प्रमाणित व रोगमुक्त बियाणे आणि प्रदेशासाठी शिफारस केलेले वाण वापरा. बियाणे प्रक्रिया करताना बियाण्याच्या लेबलावरील किंवा कृषी विद्यापीठाच्या अद्ययावत सूचनांचे पालन करा; स्वतःहून रसायनांचे मिश्रण करू नका.",
+          "बाधित भागातील दाणे पुढील बियाण्यासाठी राखू नका. यंत्रसामग्री स्वच्छ ठेवा आणि दूषित बियाणे किंवा धान्य इतर शेतात नेणे टाळा."
+        ]
+      },
+      {
+        "title": "Aphids, termites and field scouting",
+        "titleMr": "मावा, वाळवी व शेतातील निरीक्षण",
+        "points": [
+          "Inspect wheat shoots and earheads for aphid colonies, especially during heading and grain filling. Record beneficial insects such as ladybird beetles and lacewings before deciding on control.",
+          "Termite damage is often patchy: plants may dry in groups, roots or lower stems may be hollowed, and soil-covered galleries may be visible. Confirm the cause before intervention.",
+          "Use timely sowing, balanced fertilizer, clean field borders and locally recommended residue and irrigation management. Avoid excess nitrogen and unnecessary insecticide sprays.",
+          "Consider chemical intervention only when local economic thresholds and an agriculture expert's advice justify it; select a registered wheat-use product and follow its label, pre-harvest interval and protective equipment directions."
+        ],
+        "pointsMr": [
+          "विशेषतः ओंबी बाहेर येताना व दाणे भरताना पिकाचे शेंडे व ओंब्यांवर माव्याच्या वसाहती तपासा. नियंत्रण ठरवण्यापूर्वी ढालकिडे व क्रायसोपा यांसारखे मित्रकीटकही नोंदवा.",
+          "वाळवीचा प्रादुर्भाव अनेकदा ठिगळांसारखा दिसतो: काही झाडे गटाने वाळतात, मुळे किंवा खोडाचा खालचा भाग पोखरलेला असतो आणि मातीचे मार्ग दिसू शकतात. उपाय करण्यापूर्वी कारण निश्चित करा.",
+          "वेळेवर पेरणी, संतुलित खत, शेताच्या बांधांची स्वच्छता आणि स्थानिक शिफारशीनुसार अवशेष व पाणी व्यवस्थापन करा. नत्राचा अतिरेक व अनावश्यक कीटकनाशक फवारणी टाळा.",
+          "स्थानिक आर्थिक नुकसान पातळी व कृषी तज्ज्ञांच्या सल्ल्यानेच रासायनिक उपाय ठरवा. गव्हासाठी नोंदणीकृत उत्पादनाचे लेबल, काढणीपूर्व प्रतीक्षा कालावधी व संरक्षक साधनांच्या सूचना पाळा."
+        ]
       }
     ]
   },
@@ -720,6 +767,54 @@ window.AGRISMART_CROPS = [
           "वाण व हंगामानुसार माना मऊ होऊन पाती नैसर्गिकरीत्या लोळू लागल्यावर काढणी करा; खरीप व रब्बी कांद्याची पक्वता वेळ वेगळी असू शकते.",
           "गड्डे काळजीपूर्वक उपटून कोरड्या, सावलीच्या व हवेशीर ठिकाणी सुकवा. माना व बाहेरील आवरणाला इजा होऊ देऊ नका.",
           "जाड मान असलेले, जखमी, मोड आलेले किंवा रोगट गड्डे वेगळे करा. योग्यरीत्या सुकवलेले गड्डे हवेशीर ठिकाणी ठेवा व नियमित तपासा."
+        ]
+      },
+      {
+        "title": "Thrips: identification and integrated management",
+        "titleMr": "फुलकिडे: ओळख व एकात्मिक व्यवस्थापन",
+        "points": [
+          "Thrips hide between inner leaves and near the neck. Look for silvery streaks, tiny dark specks and curling or drying leaf tips; severe feeding can reduce bulb size.",
+          "Inspect plants from multiple spots and check inner leaves by gently separating them. Record pest levels and weather; hot, dry conditions can favour rapid build-up.",
+          "Use healthy seedlings, suitable spacing, field sanitation and locally recommended irrigation. Avoid excess nitrogen and conserve predatory insects; remove heavily infested volunteer onion plants and weeds that act as alternate hosts.",
+          "If intervention is justified by local thresholds, use only a currently registered onion-use product recommended by the local agriculture university or extension service. Rotate modes of action as advised and follow label dose, waiting period and pollinator precautions."
+        ],
+        "pointsMr": [
+          "फुलकिडे कांद्याच्या आतील पानांत व मानेजवळ लपतात. पानांवर चंदेरी ओरखडे, लहान काळे ठिपके आणि पाने वाकडी किंवा टोकाकडून वाळलेली दिसतात; तीव्र प्रादुर्भावामुळे गड्ड्याचा आकार कमी होऊ शकतो.",
+          "शेतातील अनेक ठिकाणांहून झाडे तपासा व आतील पाने अलगद उघडून पाहा. किडीची संख्या व हवामान नोंदवा; उष्ण व कोरडे हवामान वाढीस पोषक ठरू शकते.",
+          "निरोगी रोपे, योग्य अंतर, शेत स्वच्छता व स्थानिक शिफारशीनुसार पाणी व्यवस्थापन करा. नत्राचा अतिरेक टाळा व भक्षक मित्रकीटक जपा. स्वयंउगवलेली बाधित कांद्याची झाडे व पर्यायी यजमान तण काढा.",
+          "स्थानिक आर्थिक नुकसान पातळीवरून गरज असल्यासच कृषी विद्यापीठ किंवा विस्तार यंत्रणेने शिफारस केलेले कांद्यासाठी सध्या नोंदणीकृत उत्पादन वापरा. सल्ल्यानुसार कार्यपद्धती गट बदला आणि लेबलवरील मात्रा, प्रतीक्षा कालावधी व परागीभवन करणाऱ्या कीटकांच्या सुरक्षिततेच्या सूचना पाळा."
+        ]
+      },
+      {
+        "title": "Purple blotch, Stemphylium blight and downy mildew",
+        "titleMr": "जांभळा करपा, स्टेमफिलियम करपा व केवडा",
+        "points": [
+          "Purple blotch often begins as small water-soaked lesions that enlarge into purple-brown spots with yellow margins; lesions may girdle leaves and cause tip dieback.",
+          "Stemphylium blight can produce elongated yellow-orange to brown lesions, often on older leaves. Downy mildew may show pale patches and grey-violet growth during humid periods. Similar symptoms can overlap, so confirm diagnosis.",
+          "Improve air movement with suitable spacing, avoid prolonged leaf wetness and overhead irrigation late in the day, remove infected debris and follow crop rotation and clean nursery practices.",
+          "Use disease-free planting material and locally recommended varieties. Apply a registered fungicide only after diagnosis and when local advisories support it; follow label directions and resistance-management guidance."
+        ],
+        "pointsMr": [
+          "जांभळा करपा सुरुवातीला लहान पाणथळ डागांपासून सुरू होऊन पिवळसर कडा असलेल्या जांभळट-तपकिरी डागांत वाढू शकतो. डाग पानाभोवती पसरल्यास पानाचे टोक वाळते.",
+          "स्टेमफिलियम करपात विशेषतः जुन्या पानांवर लांबट पिवळसर-नारिंगी ते तपकिरी डाग दिसू शकतात. दमट हवेत केवड्यामुळे फिकट डाग व करड्या-जांभळट बुरशीची वाढ दिसू शकते. लक्षणे एकमेकांसारखी असल्याने निदान निश्चित करा.",
+          "योग्य अंतर ठेवून हवा खेळती ठेवा. पाने दीर्घकाळ ओली राहणे व संध्याकाळी वरून पाणी देणे टाळा. रोगट अवशेष काढा, पीक फेरपालट व स्वच्छ रोपवाटिका पद्धती पाळा.",
+          "रोगमुक्त लागवड साहित्य व स्थानिक शिफारशीतील वाण वापरा. निदानानंतर व स्थानिक सल्ला असल्यासच नोंदणीकृत बुरशीनाशक वापरा; लेबल व प्रतिकार व्यवस्थापनाच्या सूचना पाळा."
+        ]
+      },
+      {
+        "title": "Basal rot, neck rot and storage rots",
+        "titleMr": "तळकुज, मानकुज व साठवणीतली कुज",
+        "points": [
+          "Basal rot may cause yellowing, wilting and root/basal plate decay; white fungal growth may appear around the base. Neck rot often develops around the neck after harvest, especially when bulbs are not adequately cured.",
+          "Soft or watery bulbs, mould and unpleasant odour indicate storage breakdown. Distinguish field infection from curing or storage problems before selecting a response.",
+          "Use healthy sets or seedlings, well-drained soil and crop rotation. Avoid injury during lifting, cure bulbs thoroughly in a dry, ventilated place and store only sound, mature bulbs.",
+          "Remove diseased plants and bulbs; do not mix them with healthy planting or storage material. There is no reliable curative spray for a bulb already rotting in storage; improve sanitation, curing and storage conditions."
+        ],
+        "pointsMr": [
+          "तळकुजमध्ये पाने पिवळी पडणे, झाड वाळणे आणि मुळे किंवा गड्ड्याचा तळ कुजणे दिसू शकते; तळाशी पांढरी बुरशीही दिसू शकते. काढणीनंतर गड्डे नीट सुकवले नाहीत तर मानेजवळ मानकुज वाढू शकते.",
+          "मऊ किंवा पाणचट गड्डे, बुरशी व दुर्गंधी ही साठवण कुजेची लक्षणे आहेत. उपाय ठरवण्यापूर्वी शेतातील संसर्ग आणि सुकवणी/साठवण यांतील त्रुटी वेगळ्या ओळखा.",
+          "निरोगी कांदे किंवा रोपे, निचऱ्याची जमीन व पीक फेरपालट वापरा. काढणीवेळी गड्ड्यांना इजा होऊ देऊ नका; कोरड्या व हवेशीर जागेत व्यवस्थित सुकवून निरोगी, पक्व गड्डेच साठवा.",
+          "रोगट झाडे व गड्डे काढून वेगळे नष्ट करा; निरोगी बेणे किंवा साठवणीच्या मालात मिसळू नका. साठवणीत आधीच कुजलेल्या गड्ड्याला फवारणीने खात्रीशीर उपचार होत नाही; स्वच्छता, सुकवणी व साठवण सुधारावी."
         ]
       }
     ]
