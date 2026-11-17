@@ -1,14 +1,799 @@
 // AgriSmart crop knowledge library. Educational guidance; verify all practices locally.
 window.AGRISMART_CROPS = [
-{id:"cotton",en:"Cotton",mr:"कापूस",season:"Kharif / खरीप",intro:"A major fibre crop. Establishment, balanced nutrition, moisture management and regular scouting are important.",introMr:"महत्त्वाचे तंतू पीक. योग्य उगवण, संतुलित अन्नद्रव्ये, ओलावा व्यवस्थापन आणि नियमित निरीक्षण महत्त्वाचे आहे.",stages:["Sowing and establishment","Vegetative growth","Squaring and flowering","Boll development","Boll opening and picking"],stagesMr:["पेरणी व उगवण","शाकीय वाढ","पाते व फुलधारणा","बोंडांची वाढ","बोंड फुटणे व वेचणी"],nutrient:"Base nutrient decisions on soil testing, variety, yield target and local university recommendations. Avoid excess nitrogen, which can promote rank growth and delay maturity. Consider sulphur and micronutrients only where deficiency is established.",nutrientMr:"माती परीक्षण, वाण, अपेक्षित उत्पादन आणि स्थानिक कृषी विद्यापीठांच्या शिफारशींनुसार खत नियोजन करा. नत्राचा अतिरेक टाळा; त्यामुळे अनावश्यक शाकीय वाढ व पक्वतेस विलंब होऊ शकतो. गंधक व सूक्ष्म अन्नद्रव्ये कमतरता निश्चित झाल्यावरच द्या.",water:"Avoid prolonged waterlogging. Protect the crop from moisture stress during flowering and boll development. Irrigation scheduling depends on soil texture, rainfall and crop stage.",waterMr:"जास्त काळ पाणी साचू देऊ नका. फुलधारणा व बोंडवाढीच्या काळात पाण्याचा ताण टाळा. पाणी नियोजन जमिनीचा प्रकार, पाऊस व पिकाची अवस्था यांवर ठरवा.",risks:["Pink bollworm","American bollworm / other bollworms","Aphids and jassids","Locally reported leaf curl and wilt diseases"],risksMr:["गुलाबी बोंडअळी","अमेरिकन व इतर बोंडअळ्या","मावा व तुडतुडे","स्थानिक पातळीवरील पानगुंडाळी व मर रोग"],harvest:"Pick fully opened, dry kapas at suitable intervals. Keep kapas clean and dry; separate stained or wet material.",harvestMr:"पूर्ण उमललेला व कोरडा कापूस योग्य अंतराने वेचावा. कापूस स्वच्छ व कोरडा ठेवावा; डाग पडलेला किंवा ओला कापूस वेगळा ठेवा.",fieldGuide:[{"title":"Sowing and crop establishment","titleMr":"पेरणी व पीक स्थापना","points":["Follow the locally recommended June sowing window for the region; avoid very early sowing that can expose the crop to pink bollworm earlier in the season.","Use certified seed of a locally recommended variety or hybrid. Follow the seed packet instructions for the prescribed non-Bt refuge, where applicable.","Ensure a uniform plant stand. Final spacing and plant population depend on the cultivar, soil and local VNMKV/MPKV recommendation."],"pointsMr":["प्रदेशासाठी शिफारस केलेल्या जूनमधील पेरणी कालावधीचे पालन करा. अतिलवकर पेरणीमुळे गुलाबी बोंडअळीचा प्रादुर्भाव लवकर होण्याचा धोका वाढू शकतो.","प्रमाणित वाण किंवा संकरित बियाणे वापरा. लागू असल्यास बियाण्याच्या पाकिटावरील बिगर-Bt refuge बाबतच्या सूचनांचे पालन करा.","एकसमान रोपसंख्या राखा. योग्य अंतर व रोपसंख्या वाण, जमीन आणि VNMKV/MPKV च्या स्थानिक शिफारशींनुसार ठरवा."]},{"title":"Stage-wise field monitoring","titleMr":"वाढीच्या टप्प्यानुसार निरीक्षण","points":["Vegetative stage: inspect the growing points and underside of leaves for aphids, jassids, whiteflies and natural enemies.","Squaring and flowering: inspect squares, flowers and young bolls regularly; record shedding and damage rather than spraying by calendar.","Boll development: cut and inspect sample green bolls for internal pink bollworm larvae; look for rosette flowers and damaged or fallen fruiting bodies."],"pointsMr":["शाकीय वाढीच्या काळात शेंड्यावरील वाढ व पानांची खालची बाजू तपासून मावा, तुडतुडे, पांढरी माशी आणि मित्रकीटकांचे निरीक्षण करा.","पाते व फुलधारणेच्या काळात पाते, फुले आणि लहान बोंडे नियमित तपासा. ठरावीक तारखेनुसार फवारणी न करता गळ व नुकसान नोंदवा.","बोंडवाढीच्या काळात नमुना हिरवी बोंडे फोडून आतील गुलाबी बोंडअळी तपासा. गुलाबी/गुच्छ फुले आणि गळलेली किंवा बाधित बोंडे शोधा."]},{"title":"Pink bollworm IPM","titleMr":"गुलाबी बोंडअळीचे एकात्मिक व्यवस्थापन","points":["Use pheromone traps for monitoring and follow the current local advisory for trap type, density and action threshold; trap catches alone are not a spray instruction.","Collect and destroy rosette flowers, infested green bolls and fallen fruiting bodies; do not leave infested material in the field.","Conserve predators and parasitoids. Choose a registered insecticide only when field scouting reaches the locally recommended economic threshold; follow label dose, waiting period and safety directions.","After final picking, terminate the crop promptly as advised and destroy stalks and residues to reduce carry-over."],"pointsMr":["फेरोमोन सापळे निरीक्षणासाठी वापरा. सापळ्याचा प्रकार, संख्या व पुढील कृतीसाठी अद्ययावत स्थानिक कृषी सल्ला पाळा; केवळ सापळ्यातील पतंगांवरून फवारणी ठरवू नका.","गुलाबी बोंडअळीची गुलाबी/गुच्छ फुले, बाधित हिरवी बोंडे व गळलेली फळधारणा गोळा करून नष्ट करा. बाधित अवशेष शेतात ठेवू नका.","मित्रकीटकांचे संवर्धन करा. शेतातील निरीक्षणात स्थानिक आर्थिक नुकसान पातळी गाठल्यासच नोंदणीकृत कीटकनाशक निवडा; लेबलवरील मात्रा, प्रतीक्षा कालावधी व सुरक्षिततेच्या सूचना पाळा.","शेवटच्या वेचणीनंतर शिफारशीनुसार पीक वेळेत संपवा आणि खोडे व अवशेष नष्ट करा."]},{"title":"Nutrition and irrigation decisions","titleMr":"खत व पाणी नियोजन","points":["Base N-P-K-S and micronutrient decisions on a current soil test, crop history and locally recommended yield target.","Split nitrogen as recommended locally; avoid excess nitrogen and late heavy doses that can prolong vegetative growth.","Avoid waterlogging. Prevent moisture stress during flowering and boll filling; schedule irrigation using soil moisture, rainfall and soil type."],"pointsMr":["नत्र-स्फुरद-पालाश-गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण, मागील पीक आणि स्थानिक उत्पादन लक्ष्यावर आधारित करा.","स्थानिक शिफारशीनुसार नत्राचे हप्ते द्या. नत्राचा अतिरेक व उशिरा मोठी मात्रा देणे टाळा; त्यामुळे शाकीय वाढ लांबू शकते.","पाणी साचू देऊ नका. फुलधारणा व बोंड भरण्याच्या काळात पाण्याचा ताण टाळा; जमिनीतील ओलावा, पाऊस व जमिनीचा प्रकार पाहून पाणी द्या."]}]},{id:"cotton",en:"Cotton",mr:"कापूस",season:"Kharif / खरीप",intro:"A major fibre crop. Establishment, balanced nutrition, moisture management and regular scouting are important.",introMr:"महत्त्वाचे तंतू पीक. योग्य उगवण, संतुलित अन्नद्रव्ये, ओलावा व्यवस्थापन आणि नियमित निरीक्षण महत्त्वाचे आहे.",stages:["Sowing and establishment","Vegetative growth","Squaring and flowering","Boll development","Boll opening and picking"],stagesMr:["पेरणी व उगवण","शाकीय वाढ","पाते व फुलधारणा","बोंडांची वाढ","बोंड फुटणे व वेचणी"],nutrient:"Base nutrient decisions on soil testing, variety, yield target and local university recommendations. Avoid excess nitrogen, which can promote rank growth and delay maturity. Consider sulphur and micronutrients only where deficiency is established.",nutrientMr:"माती परीक्षण, वाण, अपेक्षित उत्पादन आणि स्थानिक कृषी विद्यापीठांच्या शिफारशींनुसार खत नियोजन करा. नत्राचा अतिरेक टाळा; त्यामुळे अनावश्यक शाकीय वाढ व पक्वतेस विलंब होऊ शकतो. गंधक व सूक्ष्म अन्नद्रव्ये कमतरता निश्चित झाल्यावरच द्या.",water:"Avoid prolonged waterlogging. Protect the crop from moisture stress during flowering and boll development. Irrigation scheduling depends on soil texture, rainfall and crop stage.",waterMr:"जास्त काळ पाणी साचू देऊ नका. फुलधारणा व बोंडवाढीच्या काळात पाण्याचा ताण टाळा. पाणी नियोजन जमिनीचा प्रकार, पाऊस व पिकाची अवस्था यांवर ठरवा.",risks:["Pink bollworm","American bollworm / other bollworms","Aphids and jassids","Locally reported leaf curl and wilt diseases"],risksMr:["गुलाबी बोंडअळी","अमेरिकन व इतर बोंडअळ्या","मावा व तुडतुडे","स्थानिक पातळीवरील पानगुंडाळी व मर रोग"],harvest:"Pick fully opened, dry kapas at suitable intervals. Keep kapas clean and dry; separate stained or wet material.",harvestMr:"पूर्ण उमललेला व कोरडा कापूस योग्य अंतराने वेचावा. कापूस स्वच्छ व कोरडा ठेवावा; डाग पडलेला किंवा ओला कापूस वेगळा ठेवा.",fieldGuide:[{"title":"Sowing and crop establishment","titleMr":"पेरणी व पीक स्थापना","points":["Follow the locally recommended June sowing window for the region; avoid very early sowing that can expose the crop to pink bollworm earlier in the season.","Use certified seed of a locally recommended variety or hybrid. Follow the seed packet instructions for the prescribed non-Bt refuge, where applicable.","Ensure a uniform plant stand. Final spacing and plant population depend on the cultivar, soil and local VNMKV/MPKV recommendation."],"pointsMr":["प्रदेशासाठी शिफारस केलेल्या जूनमधील पेरणी कालावधीचे पालन करा. अतिलवकर पेरणीमुळे गुलाबी बोंडअळीचा प्रादुर्भाव लवकर होण्याचा धोका वाढू शकतो.","प्रमाणित वाण किंवा संकरित बियाणे वापरा. लागू असल्यास बियाण्याच्या पाकिटावरील बिगर-Bt refuge बाबतच्या सूचनांचे पालन करा.","एकसमान रोपसंख्या राखा. योग्य अंतर व रोपसंख्या वाण, जमीन आणि VNMKV/MPKV च्या स्थानिक शिफारशींनुसार ठरवा."]},{"title":"Stage-wise field monitoring","titleMr":"वाढीच्या टप्प्यानुसार निरीक्षण","points":["Vegetative stage: inspect the growing points and underside of leaves for aphids, jassids, whiteflies and natural enemies.","Squaring and flowering: inspect squares, flowers and young bolls regularly; record shedding and damage rather than spraying by calendar.","Boll development: cut and inspect sample green bolls for internal pink bollworm larvae; look for rosette flowers and damaged or fallen fruiting bodies."],"pointsMr":["शाकीय वाढीच्या काळात शेंड्यावरील वाढ व पानांची खालची बाजू तपासून मावा, तुडतुडे, पांढरी माशी आणि मित्रकीटकांचे निरीक्षण करा.","पाते व फुलधारणेच्या काळात पाते, फुले आणि लहान बोंडे नियमित तपासा. ठरावीक तारखेनुसार फवारणी न करता गळ व नुकसान नोंदवा.","बोंडवाढीच्या काळात नमुना हिरवी बोंडे फोडून आतील गुलाबी बोंडअळी तपासा. गुलाबी/गुच्छ फुले आणि गळलेली किंवा बाधित बोंडे शोधा."]},{"title":"Pink bollworm IPM","titleMr":"गुलाबी बोंडअळीचे एकात्मिक व्यवस्थापन","points":["Use pheromone traps for monitoring and follow the current local advisory for trap type, density and action threshold; trap catches alone are not a spray instruction.","Collect and destroy rosette flowers, infested green bolls and fallen fruiting bodies; do not leave infested material in the field.","Conserve predators and parasitoids. Choose a registered insecticide only when field scouting reaches the locally recommended economic threshold; follow label dose, waiting period and safety directions.","After final picking, terminate the crop promptly as advised and destroy stalks and residues to reduce carry-over."],"pointsMr":["फेरोमोन सापळे निरीक्षणासाठी वापरा. सापळ्याचा प्रकार, संख्या व पुढील कृतीसाठी अद्ययावत स्थानिक कृषी सल्ला पाळा; केवळ सापळ्यातील पतंगांवरून फवारणी ठरवू नका.","गुलाबी बोंडअळीची गुलाबी/गुच्छ फुले, बाधित हिरवी बोंडे व गळलेली फळधारणा गोळा करून नष्ट करा. बाधित अवशेष शेतात ठेवू नका.","मित्रकीटकांचे संवर्धन करा. शेतातील निरीक्षणात स्थानिक आर्थिक नुकसान पातळी गाठल्यासच नोंदणीकृत कीटकनाशक निवडा; लेबलवरील मात्रा, प्रतीक्षा कालावधी व सुरक्षिततेच्या सूचना पाळा.","शेवटच्या वेचणीनंतर शिफारशीनुसार पीक वेळेत संपवा आणि खोडे व अवशेष नष्ट करा."]},{"title":"Nutrition and irrigation decisions","titleMr":"खत व पाणी नियोजन","points":["Base N-P-K-S and micronutrient decisions on a current soil test, crop history and locally recommended yield target.","Split nitrogen as recommended locally; avoid excess nitrogen and late heavy doses that can prolong vegetative growth.","Avoid waterlogging. Prevent moisture stress during flowering and boll filling; schedule irrigation using soil moisture, rainfall and soil type."],"pointsMr":["नत्र-स्फुरद-पालाश-गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण, मागील पीक आणि स्थानिक उत्पादन लक्ष्यावर आधारित करा.","स्थानिक शिफारशीनुसार नत्राचे हप्ते द्या. नत्राचा अतिरेक व उशिरा मोठी मात्रा देणे टाळा; त्यामुळे शाकीय वाढ लांबू शकते.","पाणी साचू देऊ नका. फुलधारणा व बोंड भरण्याच्या काळात पाण्याचा ताण टाळा; जमिनीतील ओलावा, पाऊस व जमिनीचा प्रकार पाहून पाणी द्या."]},{"title":"Pink bollworm: identification and IPM","titleMr":"गुलाबी बोंडअळी: ओळख व एकात्मिक व्यवस्थापन","points":["Look for rosette flowers, entry holes on green bolls and pink larvae inside sample bolls. Open representative bolls to confirm.","Monitor pheromone traps according to current local advice; trap catches are a warning signal, not an automatic spray trigger.","Collect and destroy rosette flowers and infested bolls. Conserve natural enemies and follow local crop-termination advice after final picking.","Use a registered cotton pink bollworm product only when field scouting and local thresholds justify intervention; follow label directions and waiting periods."],"pointsMr":["गुलाबी/गुच्छ फुले, हिरव्या बोंडांवरील छिद्रे व नमुना बोंडे फोडल्यावर आतील गुलाबी अळी तपासा.","स्थानिक सल्ल्यानुसार फेरोमोन सापळे लावा; सापळ्यातील पतंग हे इशारा आहेत, फवारणीचा थेट आदेश नाही.","गुलाबी/गुच्छ फुले व बाधित बोंडे गोळा करून नष्ट करा. मित्रकीटक जपा व शेवटच्या वेचणीनंतर स्थानिक पीक-संपवणी सल्ला पाळा.","शेतातील निरीक्षण व स्थानिक आर्थिक नुकसान पातळीवरून गरज ठरल्यासच कापसावरील गुलाबी बोंडअळीसाठी नोंदणीकृत उत्पादन लेबलनुसार वापरा."]},{"title":"Sucking pests and disease scouting","titleMr":"रसशोषक किडी व रोग निरीक्षण","points":["Inspect leaf undersides and tender shoots for aphids, jassids and whiteflies; record pest levels and check for predators and parasitoids.","Avoid excessive nitrogen and manage alternate-host weeds around the field. Conserve ladybird beetles, lacewings and other natural enemies.","For leaf curl, wilt or unusual spots, obtain field diagnosis because viral, fungal, bacterial and non-infectious symptoms can overlap.","Use selective registered products only when local thresholds and expert advice support action; protect pollinators and follow label restrictions."],"pointsMr":["पानांच्या खालच्या बाजूला व कोवळ्या शेंड्यांवर मावा, तुडतुडे व पांढरी माशी तपासा. कीड संख्या नोंदवा आणि मित्रकीटकही पाहा.","नत्राचा अतिरेक टाळा व पर्यायी यजमान तण नियंत्रित करा. ढालकिडे, क्रायसोपा व इतर मित्रकीटक जपा.","पानगुंडाळी, मर किंवा अनोखे डाग दिसल्यास शेतातील निदान घ्या; विषाणू, बुरशी, जिवाणू व अजैविक लक्षणे सारखी असू शकतात.","स्थानिक आर्थिक नुकसान पातळी व तज्ज्ञ सल्ल्यानुसारच निवडक नोंदणीकृत उत्पादने वापरा. परागीभवन करणारे कीटक सुरक्षित ठेवा व लेबल पाळा."]}]},
-
-{id:"ginger",en:"Ginger",mr:"आले",season:"Usually Kharif / प्रामुख्याने खरीप",intro:"A rhizome crop requiring healthy planting material, fertile soil and especially good drainage.",introMr:"निरोगी बेणे, सुपीक जमीन आणि विशेषतः चांगला निचरा आवश्यक असलेले कंदपीक.",stages:["Land preparation","Rhizome planting","Sprouting","Vegetative growth and rhizome development","Maturity and harvest"],stagesMr:["जमीन तयारी","बेणे लागवड","कोंब उगवण","शाकीय वाढ व कंदवाढ","परिपक्वता व काढणी"],nutrient:"Use soil-test-based nutrient planning and well-decomposed organic matter. Avoid fresh undecomposed manure and excessive fertilizer. Correct drainage before planting; nutrient needs vary with soil and production system.",nutrientMr:"माती परीक्षणानुसार खत नियोजन व पूर्ण कुजलेले सेंद्रिय खत वापरा. ताजे न कुजलेले शेणखत व खतांचा अतिरेक टाळा. लागवडीपूर्वी निचऱ्याची व्यवस्था करा; जमिनी व उत्पादन पद्धतीनुसार गरज बदलते.",water:"Maintain even moisture during active growth, but never allow standing water. Raised beds, channels and mulching can help manage drainage and moisture.",waterMr:"वाढीच्या काळात जमिनीत एकसमान ओलावा ठेवा; मात्र पाणी साचू देऊ नका. गादीवाफे, चर व आच्छादनामुळे निचरा व ओलावा व्यवस्थापनास मदत होते.",risks:["Soft rot / rhizome rot","Bacterial wilt","Shoot borer","Leaf spot and blight"],risksMr:["कंदकुज","जिवाणू मर","खोड पोखरणारी अळी","पानावरील ठिपके व करपा"],harvest:"Harvest according to crop maturity and intended use. Lift rhizomes carefully to avoid injury; cure and store under clean, suitable conditions.",harvestMr:"पिकाची परिपक्वता व उपयोग पाहून काढणी करा. कंदांना इजा होणार नाही याची काळजी घ्या; स्वच्छ व योग्य परिस्थितीत सुकवणी व साठवण करा.",fieldGuide:[{"title":"Seed rhizome selection and planting","titleMr":"बेणे निवड व लागवड","points":["Select firm, healthy, disease-free rhizomes from a reliable source. Reject pieces with soft rot, lesions or insect damage.","ICAR advisories describe seed pieces around 20–25 g with at least two healthy buds; use the locally recommended seed rate and spacing for the production system.","Plant with a viable bud facing upward at about 4–5 cm depth. Planting time varies with rainfall, irrigation and local conditions; follow the regional calendar."],"pointsMr":["विश्वसनीय स्रोताकडून घट्ट, निरोगी व रोगमुक्त बेणे निवडा. कंदकुज, डाग किंवा किडीची इजा असलेले बेणे नाकारावे.","ICAR च्या सल्ल्यानुसार साधारण २०–२५ ग्रॅम वजनाचा व किमान दोन निरोगी डोळे असलेला बेण्याचा तुकडा वापरता येतो. प्रत्यक्ष बेणे प्रमाण व अंतर स्थानिक शिफारशीनुसार ठरवा.","जिवंत डोळा वरच्या दिशेने ठेवून साधारण ४–५ सेंमी खोलीवर लागवड करा. लागवडीची वेळ पाऊस, सिंचन व स्थानिक परिस्थितीनुसार बदलते; प्रादेशिक वेळापत्रक पाळा."]},{"title":"Raised beds, drainage and mulching","titleMr":"गादीवाफे, निचरा व आच्छादन","points":["Prepare raised beds or ridges with effective side drains, especially in heavy soils and high-rainfall periods. Never allow standing water around rhizomes.","Apply clean organic mulch after planting to conserve moisture, suppress weeds and protect soil structure. Replenish according to decomposition and local recommendations.","Keep drainage channels open throughout the monsoon; divert runoff from diseased areas and avoid moving contaminated soil or water into healthy beds."],"pointsMr":["विशेषतः भारी जमिनीत व अतिवृष्टीच्या काळात बाजूला प्रभावी चर असलेले गादीवाफे किंवा सरी-वरंबे तयार करा. कंदाभोवती पाणी साचू देऊ नका.","लागवडीनंतर स्वच्छ सेंद्रिय आच्छादन द्या. त्यामुळे ओलावा टिकतो, तण कमी होते व जमिनीची रचना सुधारण्यास मदत होते. कुजण्याच्या प्रमाणानुसार व स्थानिक शिफारशीनुसार आच्छादन पुन्हा द्या.","पावसाळाभर निचऱ्याचे चर मोकळे ठेवा. रोगट भागातील पाणी निरोगी वाफ्यांत जाऊ देऊ नका आणि दूषित माती/पाणी हलवू नका."]},{"title":"Nutrition and crop care","titleMr":"खत व्यवस्थापन व आंतरमशागत","points":["Incorporate only well-decomposed organic manure. Plan N-P-K and any secondary or micronutrients from soil-test results and the relevant Maharashtra recommendation.","Do not copy fertilizer schedules from another state or production system without checking local soil and recommendation; split applications depend on the local package of practices.","Weed before mulching or earthing-up. Avoid deep hoeing that injures shallow rhizomes and roots."],"pointsMr":["पूर्ण कुजलेले सेंद्रिय खतच मिसळा. नत्र-स्फुरद-पालाश तसेच दुय्यम किंवा सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण व महाराष्ट्रातील लागू शिफारशींनुसार करा.","दुसऱ्या राज्यातील किंवा वेगळ्या उत्पादन पद्धतीतील खत वेळापत्रक स्थानिक जमीन व शिफारशी तपासल्याशिवाय वापरू नका. खतांचे हप्ते स्थानिक पीक पद्धतीनुसार ठरतात.","आच्छादन किंवा भर देण्यापूर्वी तण काढा. उथळ कंद व मुळांना इजा होईल अशी खोल खुरपणी टाळा."]},{"title":"Rhizome rot and bacterial wilt watch","titleMr":"कंदकुज व जिवाणू मर निरीक्षण","points":["Watch for yellowing and wilting leaves, soft or water-soaked rhizomes, foul smell and plant collapse; these symptoms need field diagnosis because causes can differ.","Remove severely affected clumps with surrounding infected material; do not use affected rhizomes as seed. Clean tools and prevent drainage water from moving from affected to healthy plots.","Use healthy seed, crop rotation and good drainage as the foundation. Use Trichoderma or Pseudomonas products only when suitable for the crop and according to their label and local agricultural advice."],"pointsMr":["पाने पिवळी पडणे व कोमेजणे, कंद मऊ/पाणचट होणे, दुर्गंधी आणि झाड कोसळणे ही लक्षणे पाहा. कारणे वेगवेगळी असू शकतात, त्यामुळे शेतातील निदान आवश्यक आहे.","तीव्र बाधित बेट सभोवतालच्या रोगट अवशेषांसह काढून नष्ट करा. बाधित कंद बेण्यासाठी वापरू नका. अवजारे स्वच्छ ठेवा व रोगट भागातील पाणी निरोगी भागात जाऊ देऊ नका.","निरोगी बेणे, पीक फेरपालट व चांगला निचरा हा पाया आहे. ट्रायकोडर्मा किंवा स्यूडोमोनास उत्पादने पिकासाठी योग्य असल्यासच आणि लेबल व स्थानिक कृषी सल्ल्यानुसार वापरा."]},{"title":"Maturity and harvest","titleMr":"परिपक्वता व काढणी","points":["Harvesting age depends on variety and intended use (fresh/green or mature dry ginger); confirm maturity from crop condition and local recommendation rather than a fixed date.","Lift clumps carefully to minimize rhizome injury. Separate damaged or diseased rhizomes and keep harvested produce clean.","For storage, cure and dry only as required for the intended market; store sound rhizomes in a clean, ventilated, suitable place."],"pointsMr":["काढणीचे वय वाण आणि उपयोगावर (हिरवे/ताजे किंवा पूर्ण परिपक्व सुंठ) अवलंबून असते. ठरावीक दिवसांऐवजी पिकाची अवस्था व स्थानिक शिफारस पाहून काढणी करा.","कंदांना इजा होणार नाही अशा पद्धतीने बेटे उपटा. खराब किंवा रोगट कंद वेगळे करा आणि काढलेला माल स्वच्छ ठेवा.","बाजारातील उपयोगानुसार आवश्यक तेवढी सुकवणी व प्रक्रिया करा. निरोगी कंद स्वच्छ, हवेशीर व योग्य ठिकाणी साठवा."]}]},{id:"ginger",en:"Ginger",mr:"आले",season:"Usually Kharif / प्रामुख्याने खरीप",intro:"A rhizome crop requiring healthy planting material, fertile soil and especially good drainage.",introMr:"निरोगी बेणे, सुपीक जमीन आणि विशेषतः चांगला निचरा आवश्यक असलेले कंदपीक.",stages:["Land preparation","Rhizome planting","Sprouting","Vegetative growth and rhizome development","Maturity and harvest"],stagesMr:["जमीन तयारी","बेणे लागवड","कोंब उगवण","शाकीय वाढ व कंदवाढ","परिपक्वता व काढणी"],nutrient:"Use soil-test-based nutrient planning and well-decomposed organic matter. Avoid fresh undecomposed manure and excessive fertilizer. Correct drainage before planting; nutrient needs vary with soil and production system.",nutrientMr:"माती परीक्षणानुसार खत नियोजन व पूर्ण कुजलेले सेंद्रिय खत वापरा. ताजे न कुजलेले शेणखत व खतांचा अतिरेक टाळा. लागवडीपूर्वी निचऱ्याची व्यवस्था करा; जमिनी व उत्पादन पद्धतीनुसार गरज बदलते.",water:"Maintain even moisture during active growth, but never allow standing water. Raised beds, channels and mulching can help manage drainage and moisture.",waterMr:"वाढीच्या काळात जमिनीत एकसमान ओलावा ठेवा; मात्र पाणी साचू देऊ नका. गादीवाफे, चर व आच्छादनामुळे निचरा व ओलावा व्यवस्थापनास मदत होते.",risks:["Soft rot / rhizome rot","Bacterial wilt","Shoot borer","Leaf spot and blight"],risksMr:["कंदकुज","जिवाणू मर","खोड पोखरणारी अळी","पानावरील ठिपके व करपा"],harvest:"Harvest according to crop maturity and intended use. Lift rhizomes carefully to avoid injury; cure and store under clean, suitable conditions.",harvestMr:"पिकाची परिपक्वता व उपयोग पाहून काढणी करा. कंदांना इजा होणार नाही याची काळजी घ्या; स्वच्छ व योग्य परिस्थितीत सुकवणी व साठवण करा.",fieldGuide:[{"title":"Seed rhizome selection and planting","titleMr":"बेणे निवड व लागवड","points":["Select firm, healthy, disease-free rhizomes from a reliable source. Reject pieces with soft rot, lesions or insect damage.","ICAR advisories describe seed pieces around 20–25 g with at least two healthy buds; use the locally recommended seed rate and spacing for the production system.","Plant with a viable bud facing upward at about 4–5 cm depth. Planting time varies with rainfall, irrigation and local conditions; follow the regional calendar."],"pointsMr":["विश्वसनीय स्रोताकडून घट्ट, निरोगी व रोगमुक्त बेणे निवडा. कंदकुज, डाग किंवा किडीची इजा असलेले बेणे नाकारावे.","ICAR च्या सल्ल्यानुसार साधारण २०–२५ ग्रॅम वजनाचा व किमान दोन निरोगी डोळे असलेला बेण्याचा तुकडा वापरता येतो. प्रत्यक्ष बेणे प्रमाण व अंतर स्थानिक शिफारशीनुसार ठरवा.","जिवंत डोळा वरच्या दिशेने ठेवून साधारण ४–५ सेंमी खोलीवर लागवड करा. लागवडीची वेळ पाऊस, सिंचन व स्थानिक परिस्थितीनुसार बदलते; प्रादेशिक वेळापत्रक पाळा."]},{"title":"Raised beds, drainage and mulching","titleMr":"गादीवाफे, निचरा व आच्छादन","points":["Prepare raised beds or ridges with effective side drains, especially in heavy soils and high-rainfall periods. Never allow standing water around rhizomes.","Apply clean organic mulch after planting to conserve moisture, suppress weeds and protect soil structure. Replenish according to decomposition and local recommendations.","Keep drainage channels open throughout the monsoon; divert runoff from diseased areas and avoid moving contaminated soil or water into healthy beds."],"pointsMr":["विशेषतः भारी जमिनीत व अतिवृष्टीच्या काळात बाजूला प्रभावी चर असलेले गादीवाफे किंवा सरी-वरंबे तयार करा. कंदाभोवती पाणी साचू देऊ नका.","लागवडीनंतर स्वच्छ सेंद्रिय आच्छादन द्या. त्यामुळे ओलावा टिकतो, तण कमी होते व जमिनीची रचना सुधारण्यास मदत होते. कुजण्याच्या प्रमाणानुसार व स्थानिक शिफारशीनुसार आच्छादन पुन्हा द्या.","पावसाळाभर निचऱ्याचे चर मोकळे ठेवा. रोगट भागातील पाणी निरोगी वाफ्यांत जाऊ देऊ नका आणि दूषित माती/पाणी हलवू नका."]},{"title":"Nutrition and crop care","titleMr":"खत व्यवस्थापन व आंतरमशागत","points":["Incorporate only well-decomposed organic manure. Plan N-P-K and any secondary or micronutrients from soil-test results and the relevant Maharashtra recommendation.","Do not copy fertilizer schedules from another state or production system without checking local soil and recommendation; split applications depend on the local package of practices.","Weed before mulching or earthing-up. Avoid deep hoeing that injures shallow rhizomes and roots."],"pointsMr":["पूर्ण कुजलेले सेंद्रिय खतच मिसळा. नत्र-स्फुरद-पालाश तसेच दुय्यम किंवा सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण व महाराष्ट्रातील लागू शिफारशींनुसार करा.","दुसऱ्या राज्यातील किंवा वेगळ्या उत्पादन पद्धतीतील खत वेळापत्रक स्थानिक जमीन व शिफारशी तपासल्याशिवाय वापरू नका. खतांचे हप्ते स्थानिक पीक पद्धतीनुसार ठरतात.","आच्छादन किंवा भर देण्यापूर्वी तण काढा. उथळ कंद व मुळांना इजा होईल अशी खोल खुरपणी टाळा."]},{"title":"Rhizome rot and bacterial wilt watch","titleMr":"कंदकुज व जिवाणू मर निरीक्षण","points":["Watch for yellowing and wilting leaves, soft or water-soaked rhizomes, foul smell and plant collapse; these symptoms need field diagnosis because causes can differ.","Remove severely affected clumps with surrounding infected material; do not use affected rhizomes as seed. Clean tools and prevent drainage water from moving from affected to healthy plots.","Use healthy seed, crop rotation and good drainage as the foundation. Use Trichoderma or Pseudomonas products only when suitable for the crop and according to their label and local agricultural advice."],"pointsMr":["पाने पिवळी पडणे व कोमेजणे, कंद मऊ/पाणचट होणे, दुर्गंधी आणि झाड कोसळणे ही लक्षणे पाहा. कारणे वेगवेगळी असू शकतात, त्यामुळे शेतातील निदान आवश्यक आहे.","तीव्र बाधित बेट सभोवतालच्या रोगट अवशेषांसह काढून नष्ट करा. बाधित कंद बेण्यासाठी वापरू नका. अवजारे स्वच्छ ठेवा व रोगट भागातील पाणी निरोगी भागात जाऊ देऊ नका.","निरोगी बेणे, पीक फेरपालट व चांगला निचरा हा पाया आहे. ट्रायकोडर्मा किंवा स्यूडोमोनास उत्पादने पिकासाठी योग्य असल्यासच आणि लेबल व स्थानिक कृषी सल्ल्यानुसार वापरा."]},{"title":"Maturity and harvest","titleMr":"परिपक्वता व काढणी","points":["Harvesting age depends on variety and intended use (fresh/green or mature dry ginger); confirm maturity from crop condition and local recommendation rather than a fixed date.","Lift clumps carefully to minimize rhizome injury. Separate damaged or diseased rhizomes and keep harvested produce clean.","For storage, cure and dry only as required for the intended market; store sound rhizomes in a clean, ventilated, suitable place."],"pointsMr":["काढणीचे वय वाण आणि उपयोगावर (हिरवे/ताजे किंवा पूर्ण परिपक्व सुंठ) अवलंबून असते. ठरावीक दिवसांऐवजी पिकाची अवस्था व स्थानिक शिफारस पाहून काढणी करा.","कंदांना इजा होणार नाही अशा पद्धतीने बेटे उपटा. खराब किंवा रोगट कंद वेगळे करा आणि काढलेला माल स्वच्छ ठेवा.","बाजारातील उपयोगानुसार आवश्यक तेवढी सुकवणी व प्रक्रिया करा. निरोगी कंद स्वच्छ, हवेशीर व योग्य ठिकाणी साठवा."]},{"title":"Soft rot and bacterial wilt: identification and containment","titleMr":"कंदकुज व जिवाणू मर: ओळख व प्रसार नियंत्रण","points":["Yellowing, wilting and soft or water-soaked rhizomes may indicate rot; bacterial wilt can also cause wilting despite moist soil. Symptoms overlap, so seek field diagnosis.","Remove severely affected clumps with diseased material as locally advised. Never use affected rhizomes as seed.","Keep drainage channels open; prevent runoff from affected beds entering healthy beds. Clean tools and containers between plots.","Use healthy seed rhizomes, raised beds, crop rotation and sanitation. Do not assume a universal spray can cure an established bacterial infection."],"pointsMr":["पाने पिवळी पडणे, झाड कोमेजणे व कंद मऊ/पाणचट होणे ही कंदकुजीची लक्षणे असू शकतात. ओलसर जमिनीतही मर दिसल्यास जिवाणू मर शकतो; लक्षणे मिळतीजुळती असल्याने निदान घ्या.","स्थानिक सल्ल्यानुसार तीव्र बाधित बेटे रोगट भागासह काढून नष्ट करा. बाधित कंद बेण्यासाठी वापरू नका.","निचऱ्याचे चर मोकळे ठेवा. रोगट वाफ्यातील पाणी निरोगी वाफ्यात जाऊ देऊ नका. वाफ्यांदरम्यान अवजारे व भांडी स्वच्छ करा.","निरोगी बेणे, गादीवाफे, पीक फेरपालट व स्वच्छता पाळा. स्थापित जिवाणू संसर्गावर एकच सार्वत्रिक फवारणी उपाय आहे असे समजू नका."]},{"title":"Shoot borer and leaf spot / blight","titleMr":"खोड पोखरणारी अळी व पानावरील ठिपके / करपा","points":["For shoot borer, look for bore holes, frass and a yellowing or drying central shoot; split suspicious shoots to confirm the larva.","For leaf spot or blight, monitor expanding spots, yellow margins and premature drying, especially in humid weather. Confirm the cause before choosing a fungicide.","Remove infested shoots or severely diseased leaves where locally recommended; maintain field sanitation and avoid prolonged leaf wetness.","Use only registered products labelled for ginger and the diagnosed pest or disease. Follow label safety, application and waiting-period instructions."],"pointsMr":["खोड पोखरणाऱ्या अळीसाठी छिद्रे, अळीची विष्ठा व मधला कोंब पिवळा/वाळणे तपासा. संशयित कोंब चिरून अळीची खात्री करा.","पानावरील ठिपके किंवा करप्यासाठी वाढणारे डाग, पिवळ्या कडा व अकाली पाने वाळणे पाहा; दमट हवेत निरीक्षण वाढवा. बुरशीनाशकापूर्वी कारण निश्चित करा.","स्थानिक शिफारशीनुसार बाधित कोंब किंवा तीव्र रोगट पाने काढा. शेत स्वच्छ ठेवा व पानांवर दीर्घकाळ ओलावा राहू देऊ नका.","आले व निदान झालेल्या कीड/रोगासाठी लेबल असलेली नोंदणीकृत उत्पादनेच वापरा. सुरक्षा, वापर व प्रतीक्षा कालावधीच्या सूचना पाळा."]}]},
-
-{id:"garlic",en:"Garlic",mr:"लसूण",season:"Rabi in many regions / अनेक भागांत रब्बी",intro:"A bulb crop with a relatively shallow root system. Healthy cloves, suitable soil and steady moisture support bulb development.",introMr:"उथळ मुळांची कंदपीक. निरोगी पाकळ्या, योग्य जमीन व नियमित ओलावा गड्डा वाढीस मदत करतात.",stages:["Clove selection and planting","Sprouting","Leaf growth","Bulb initiation and enlargement","Maturity and curing"],stagesMr:["पाकळ्या निवड व लागवड","उगवण","पानांची वाढ","गड्डा निर्मिती व वाढ","परिपक्वता व सुकवणी"],nutrient:"Use healthy planting cloves and soil-test-guided nutrient management. Avoid excessive nitrogen late in the season. Organic matter and good soil structure support root and bulb growth.",nutrientMr:"निरोगी पाकळ्या वापरा व माती परीक्षणानुसार खत व्यवस्थापन करा. हंगामाच्या शेवटी नत्राचा अतिरेक टाळा. सेंद्रिय पदार्थ व भुसभुशीत जमीन मुळांच्या व गड्ड्यांच्या वाढीस मदत करतात.",water:"Keep moisture reasonably uniform during establishment and bulb enlargement. Waterlogging encourages disease; reduce or stop irrigation near harvest according to local recommendations and soil conditions.",waterMr:"उगवण व गड्डा वाढीच्या काळात योग्य व एकसमान ओलावा ठेवा. पाणी साचल्यास रोग वाढू शकतात; काढणीपूर्वी स्थानिक शिफारस व जमिनीच्या स्थितीनुसार पाणी कमी किंवा बंद करा.",risks:["Thrips","Purple blotch","Stemphylium blight","Basal and storage rots"],risksMr:["फुलकिडे","जांभळा करपा","स्टेमफिलियम करपा","तळकुज व साठवणुकीतील कुज"],harvest:"Harvest when tops show maturity signs. Cure bulbs in a shaded, well-ventilated place; store only sound, dry bulbs.",harvestMr:"पाती परिपक्वतेची लक्षणे दाखवू लागल्यावर काढणी करा. सावलीत व हवेशीर ठिकाणी गड्डे सुकवा; निरोगी व कोरडे गड्डेच साठवा.",fieldGuide:[{"title":"Clove selection and planting","titleMr":"पाकळ्या निवड व लागवड","points":["Use healthy, true-to-type, disease-free cloves from a reliable source. Reject shrivelled, damaged or rotting cloves.","Select a locally recommended variety and planting window. Prepare a fine, well-drained seedbed; avoid fields with standing water.","Keep planting depth and spacing uniform according to the variety and Maharashtra package of practices. Do not use cloves from diseased bulbs."],"pointsMr":["विश्वसनीय स्रोताकडून निरोगी, वाणानुसार योग्य व रोगमुक्त पाकळ्या निवडा. सुकलेल्या, तुटलेल्या किंवा कुजलेल्या पाकळ्या वापरू नका.","स्थानिक शिफारशीतील वाण व लागवड कालावधी निवडा. भुसभुशीत व चांगला निचरा असलेली जमीन तयार करा; पाणी साचणारी जमीन टाळा.","महाराष्ट्रातील पीक पद्धतीनुसार लागवडीची खोली व अंतर एकसमान ठेवा. रोगट गड्ड्यांतील पाकळ्या बेण्यासाठी वापरू नका."]},{"title":"Nutrition and irrigation","titleMr":"खत व पाणी व्यवस्थापन","points":["Base nutrient application on soil testing, previous crop and local university recommendations; incorporate only well-decomposed organic matter.","Maintain even soil moisture during leaf growth and bulb enlargement. Avoid both prolonged dryness and waterlogging.","Reduce irrigation as the crop approaches maturity according to soil condition and local advice; excessive late irrigation can delay curing and increase storage problems."],"pointsMr":["माती परीक्षण, मागील पीक व स्थानिक कृषी विद्यापीठांच्या शिफारशीनुसार खत द्या; पूर्ण कुजलेले सेंद्रिय खतच वापरा.","पानांची वाढ व गड्डा वाढीच्या काळात जमिनीत एकसमान ओलावा ठेवा. दीर्घकाळ पाण्याचा ताण व पाणी साचणे टाळा.","पीक पक्वतेकडे जाताना जमीन व स्थानिक सल्ल्यानुसार पाणी कमी करा. उशिरा जास्त पाणी दिल्यास पक्वता व सुकवणी लांबू शकते."]},{"title":"Weed, pest and disease monitoring","titleMr":"तण, कीड व रोग निरीक्षण","points":["Keep the crop weed-free, especially during early growth; shallow-rooted garlic can be injured by deep hoeing.","Scout for thrips and leaf symptoms of purple blotch or Stemphylium blight. Distinguish nutrient stress from disease before choosing a control.","Remove badly affected plant material where practical, avoid overhead irrigation when disease pressure is high, and use only locally recommended registered products when necessary."],"pointsMr":["विशेषतः सुरुवातीच्या वाढीत तण नियंत्रण ठेवा; लसणाची मुळे उथळ असल्याने खोल खुरपणीमुळे मुळांना इजा होऊ शकते.","फुलकिडे तसेच जांभळा करपा किंवा स्टेमफिलियम करप्याची पानांवरील लक्षणे तपासा. नियंत्रण ठरवण्यापूर्वी अन्नद्रव्य कमतरता व रोग यांतील फरक ओळखा.","शक्य असल्यास तीव्र बाधित अवशेष काढा. रोगाचा प्रादुर्भाव जास्त असताना वरून पाणी देणे टाळा; गरज असल्यास स्थानिक शिफारशीतील नोंदणीकृत उत्पादनेच वापरा."]},{"title":"Maturity, harvest and storage","titleMr":"परिपक्वता, काढणी व साठवण","points":["Harvest when tops naturally yellow and begin falling and bulbs have reached suitable maturity for the variety; do not rely on a single fixed number of days.","Lift bulbs carefully and cure in shade with good ventilation. Avoid direct harsh sun or wet curing conditions.","Store only well-cured, dry, healthy bulbs in a clean, dry and ventilated structure; remove damaged bulbs before storage."],"pointsMr":["पाती नैसर्गिकरीत्या पिवळी पडून लोळू लागल्यावर आणि वाणानुसार गड्डे परिपक्व झाल्यावर काढणी करा; ठरावीक दिवसांवरच अवलंबून राहू नका.","गड्ड्यांना इजा न करता उपटून सावलीत व हवेशीर ठिकाणी सुकवा. कडक उन्हात किंवा ओलसर परिस्थितीत सुकवणी टाळा.","पूर्ण सुकलेले, निरोगी गड्डेच स्वच्छ, कोरड्या व हवेशीर साठवण जागेत ठेवा; खराब गड्डे आधी वेगळे करा."]}]},
-{id:"soybean",en:"Soybean",mr:"सोयाबीन",season:"Kharif / खरीप",intro:"An important oilseed and pulse crop. Good seed, timely sowing, effective drainage and early crop establishment are key.",introMr:"महत्त्वाचे तेलबिया व कडधान्य पीक. चांगले बियाणे, वेळेवर पेरणी, निचरा आणि सुरुवातीची जोमदार वाढ महत्त्वाची आहे.",stages:["Germination","Vegetative growth","Flowering","Pod formation and seed filling","Maturity"],stagesMr:["उगवण","शाकीय वाढ","फुलधारणा","शेंगा व दाणे भरणे","परिपक्वता"],nutrient:"Use suitable varieties and seed treatment/inoculants as recommended locally. Soybean can fix nitrogen when effective nodulation occurs; phosphorus, potassium, sulphur and micronutrient decisions should follow soil tests and local recommendations.",nutrientMr:"स्थानिक शिफारशीनुसार वाण, बीजप्रक्रिया व जिवाणू संवर्धक वापरा. योग्य गाठी तयार झाल्यास सोयाबीन वातावरणातील नत्र स्थिरीकरण करते; स्फुरद, पालाश, गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षणानुसार करा.",water:"Avoid waterlogging, especially during heavy monsoon rainfall. Moisture stress during flowering and pod filling can reduce yield; irrigation need depends on rainfall and soil.",waterMr:"विशेषतः अतिवृष्टीत पाणी साचू देऊ नका. फुलधारणा व शेंगा भरण्याच्या काळातील पाण्याचा ताण उत्पादन कमी करू शकतो; पाण्याची गरज पाऊस व जमिनीवर अवलंबून असते.",risks:["Yellow mosaic disease","Stem fly","Girdle beetle","Defoliators including Spodoptera"],risksMr:["पिवळा मोझॅक","खोडमाशी","खोड पोखरणारी अळी","स्पोडोप्टेरा व पाने खाणाऱ्या अळ्या"],harvest:"Harvest when most pods are mature and plants show maturity. Timely harvest reduces shattering and weather-related losses; dry seed safely before storage.",harvestMr:"बहुतेक शेंगा परिपक्व झाल्यावर व झाडे पक्वतेची लक्षणे दाखवू लागल्यावर काढणी करा. वेळेवर काढणीमुळे दाणे गळणे व हवामानामुळे होणारे नुकसान कमी होते; साठवणीपूर्वी दाणे सुरक्षितरीत्या वाळवा.",fieldGuide:[{"title":"Seed quality, treatment and sowing","titleMr":"बियाणे गुणवत्ता, बीजप्रक्रिया व पेरणी","points":["Use certified seed of a locally recommended variety with good germination and physical purity. Check the current regional sowing window.","Use seed treatment and Rhizobium/Bradyrhizobium and phosphate-solubilizing inoculants only as recommended for the variety and product; follow compatibility and label instructions.","Sow into moist soil with a uniform seed depth and plant stand. Ensure functional drainage because waterlogging can damage seedlings and nodulation."],"pointsMr":["चांगली उगवणक्षमता व शुद्धता असलेले स्थानिक शिफारशीतील प्रमाणित बियाणे वापरा. चालू हंगामातील प्रादेशिक पेरणी कालावधी तपासा.","बीजप्रक्रिया तसेच रायझोबियम/ब्रॅडीरायझोबियम व स्फुरद विरघळविणारे जिवाणू संवर्धक फक्त शिफारशीनुसार वापरा; उत्पादनाच्या लेबलवरील सुसंगतता व सूचना पाळा.","पुरेशा ओलाव्यात एकसमान खोलीवर पेरणी करून योग्य रोपसंख्या राखा. पाणी साचल्यास रोपे व मुळांवरील गाठी बाधित होऊ शकतात; निचरा ठेवा."]},{"title":"Nodulation and nutrient management","titleMr":"मुळांवरील गाठी व अन्नद्रव्य व्यवस्थापन","points":["Inspect a few plants during early vegetative growth and gently check roots for active nodules; pink or reddish interiors generally indicate active nitrogen fixation.","Do not assume soybean needs no nutrients. Plan phosphorus, potassium, sulphur and micronutrients from soil-test results and local recommendations.","Avoid unneeded nitrogen top-dressing; excess nitrogen can suppress nodulation. Correct confirmed deficiencies using locally recommended methods."],"pointsMr":["सुरुवातीच्या शाकीय वाढीत काही झाडे अलगद उपटून मुळांवरील गाठी तपासा. गाठीच्या आतील भागाचा गुलाबी किंवा लालसर रंग सक्रिय नत्र स्थिरीकरणाचे सामान्य लक्षण आहे.","सोयाबीनला अन्नद्रव्यांची गरज नसते असे समजू नका. स्फुरद, पालाश, गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण व स्थानिक शिफारशीनुसार करा.","गरज नसताना वरून नत्र देणे टाळा; जास्त नत्रामुळे गाठींची निर्मिती कमी होऊ शकते. निश्चित कमतरता स्थानिक शिफारशीनुसार दुरुस्त करा."]},{"title":"Pest and disease scouting","titleMr":"कीड व रोग निरीक्षण","points":["Scout regularly for stem fly, girdle beetle, defoliators and sucking pests; inspect stems, leaf undersides and the whole canopy.","Watch for yellow mosaic symptoms and identify likely whitefly-vector activity. Remove isolated severely affected plants where recommended and manage vectors using an integrated approach.","Use field counts and local economic thresholds rather than calendar spraying. Conserve natural enemies and follow registered product labels and waiting periods."],"pointsMr":["खोडमाशी, खोड पोखरणारी भुंगेरी, पाने खाणाऱ्या अळ्या व रसशोषक किडींसाठी नियमित निरीक्षण करा; खोड, पानांची खालची बाजू व संपूर्ण पीक तपासा.","पिवळ्या मोझॅकची लक्षणे आणि पांढऱ्या माशीची हालचाल पाहा. शिफारस असल्यास वेगळी व तीव्र बाधित झाडे काढा व एकात्मिक पद्धतीने वाहक किडींचे व्यवस्थापन करा.","ठरावीक तारखेनुसार फवारणी न करता शेतातील संख्या व स्थानिक आर्थिक नुकसान पातळी पाहा. मित्रकीटक जपा आणि नोंदणीकृत उत्पादनांचे लेबल व प्रतीक्षा कालावधी पाळा."]},{"title":"Harvest and post-harvest","titleMr":"काढणी व काढणीनंतरची काळजी","points":["Harvest when most pods have matured and leaves have yellowed; avoid unnecessary delay because dry pods may shatter.","Dry harvested plants or threshed seed carefully to a safe storage moisture level; avoid contamination with soil and stones.","Store clean, dry seed in suitable moisture-proof, pest-managed storage. Keep seed intended for sowing separate and maintain varietal identity."],"pointsMr":["बहुतेक शेंगा परिपक्व होऊन पाने पिवळी झाल्यावर काढणी करा. अनावश्यक विलंब केल्यास वाळलेल्या शेंगा फुटून दाणे गळू शकतात.","काढलेली झाडे किंवा मळणी केलेले दाणे सुरक्षित साठवण ओलावा पातळीपर्यंत काळजीपूर्वक वाळवा; माती व दगड मिसळू देऊ नका.","स्वच्छ व कोरडे दाणे योग्य ओलावा नियंत्रण व कीड व्यवस्थापन असलेल्या साठवणीत ठेवा. पेरणीसाठीचे बियाणे वेगळे ठेवून वाणाची ओळख जपा."]}]},
-{id:"wheat",en:"Wheat",mr:"गहू",season:"Rabi / रब्बी",intro:"A major cereal crop. Timely sowing, a fine and level seedbed, suitable variety and irrigation at critical stages influence performance.",introMr:"प्रमुख अन्नधान्य पीक. वेळेवर पेरणी, भुसभुशीत व समतल वाफसा, योग्य वाण आणि महत्त्वाच्या अवस्थांतील पाणी उत्पादनावर परिणाम करतात.",stages:["Germination and crown-root initiation","Tillering","Stem elongation","Booting and heading","Grain filling and maturity"],stagesMr:["उगवण व मुकुटमुळे तयार होणे","फुटवे फुटणे","खोड वाढ","ओंबी बाहेर येणे व फुलोरा","दाणे भरणे व परिपक्वता"],nutrient:"Base fertilizer planning on soil testing, variety, sowing date and local recommendations. Balanced nitrogen, phosphorus, potassium and sulphur are important; split nitrogen timing should follow regional guidance.",nutrientMr:"माती परीक्षण, वाण, पेरणीची वेळ व स्थानिक शिफारशींनुसार खत नियोजन करा. नत्र, स्फुरद, पालाश व गंधक यांचा समतोल महत्त्वाचा आहे; नत्राचे हप्ते प्रादेशिक शिफारशीनुसार द्या.",water:"Crown-root initiation is a particularly important irrigation stage. Also monitor moisture around flowering and grain filling. Avoid over-irrigation and lodging risk.",waterMr:"मुकुटमुळे तयार होण्याची अवस्था पाण्याच्या दृष्टीने विशेष महत्त्वाची आहे. फुलोरा व दाणे भरण्याच्या काळातही ओलावा तपासा. अति पाणी व पीक लोळण्याचा धोका टाळा.",risks:["Yellow and brown rust","Loose smut","Termites","Aphids"],risksMr:["पिवळा व तपकिरी तांबेरा","काजळी","वाळवी","मावा"],harvest:"Harvest when grains are mature and straw is dry. Dry grain to a safe moisture level and store in clean, pest-protected conditions.",harvestMr:"दाणे परिपक्व व काड कोरडे झाल्यावर काढणी करा. दाणे सुरक्षित ओलावा पातळीपर्यंत वाळवून स्वच्छ व किडींपासून सुरक्षित ठिकाणी साठवा.",fieldGuide:[{"title":"Land preparation and timely sowing","titleMr":"जमीन तयारी व वेळेवर पेरणी","points":["Choose a variety suited to the region, sowing window and irrigation availability. Timely sowing helps avoid terminal heat during grain filling.","Prepare a level, firm but fine seedbed with adequate moisture. Use a seed drill or another method that gives uniform depth and row placement.","Use certified seed and locally recommended seed rate, spacing and seed treatment; these vary with variety and sowing method."],"pointsMr":["प्रदेश, पेरणी कालावधी व सिंचन उपलब्धतेनुसार योग्य वाण निवडा. वेळेवर पेरणी केल्यास दाणे भरण्याच्या काळातील उष्णतेचा धोका कमी होतो.","पुरेसा ओलावा असलेला समतल, घट्ट पण भुसभुशीत वाफसा तयार करा. बियाणे एकसमान खोलीवर व ओळीत पडेल अशी पेरणी यंत्रणा वापरा.","प्रमाणित बियाणे वापरा. बियाणे प्रमाण, ओळीतील अंतर व बीजप्रक्रिया वाण व पेरणी पद्धतीनुसार स्थानिक शिफारशीतून ठरवा."]},{"title":"Nutrient management","titleMr":"अन्नद्रव्य व्यवस्थापन","points":["Base fertilizer planning on soil test, preceding crop, variety and expected yield; do not copy a blanket dose from another farm.","Apply phosphorus and potassium as advised at sowing and split nitrogen at locally recommended stages to improve use efficiency.","Monitor crop colour and growth, but confirm suspected micronutrient deficiency before applying corrective products."],"pointsMr":["माती परीक्षण, मागील पीक, वाण व अपेक्षित उत्पादनानुसार खत नियोजन करा; दुसऱ्या शेतातील सरसकट मात्रा तशीच वापरू नका.","शिफारशीनुसार पेरणीवेळी स्फुरद व पालाश द्या आणि नत्राचे हप्ते स्थानिक शिफारशीतील अवस्थांनुसार द्या.","पिकाचा रंग व वाढ पाहा; सूक्ष्म अन्नद्रव्यांची कमतरता वाटल्यास उपाय करण्यापूर्वी ती निश्चित करा."]},{"title":"Critical irrigation and crop care","titleMr":"महत्त्वाच्या अवस्था व पाणी व्यवस्थापन","points":["Crown-root initiation, commonly around 20–25 days after sowing depending on temperature and establishment, is a highly sensitive irrigation stage.","Further irrigation at tillering, jointing, flowering and grain filling should be scheduled according to soil moisture, rainfall and local recommendations.","Avoid excessive irrigation, especially on light soils or windy conditions, because lodging and nutrient loss may occur."],"pointsMr":["तापमान व उगवणीनुसार साधारण पेरणीनंतर २०–२५ दिवसांच्या आसपास येणारी मुकुटमुळे तयार होण्याची अवस्था पाण्याच्या दृष्टीने अतिशय संवेदनशील असते.","फुटवे, खोडाची वाढ, फुलोरा व दाणे भरण्याच्या अवस्थांतील पुढील पाणी जमिनीतील ओलावा, पाऊस व स्थानिक शिफारशीनुसार ठरवा.","विशेषतः हलक्या जमिनीत किंवा वाऱ्याच्या परिस्थितीत अति सिंचन टाळा; पीक लोळणे व अन्नद्रव्ये वाहून जाण्याचा धोका असतो."]},{"title":"Weeds, pests and diseases","titleMr":"तण, कीड व रोग व्यवस्थापन","points":["Control weeds early while the crop is establishing; select mechanical or registered chemical options only according to crop stage and label.","Scout for aphids and termites and inspect for yellow rust, brown rust and loose smut. Confirm disease identity before choosing a fungicide.","Use resistant or tolerant varieties where available, remove volunteer wheat and follow local advisories during conducive weather."],"pointsMr":["पीक स्थिरावत असताना सुरुवातीच्या काळात तण नियंत्रण करा. यांत्रिक किंवा नोंदणीकृत रासायनिक पर्याय पिकाची अवस्था व लेबल पाहूनच निवडा.","मावा व वाळवीचे निरीक्षण करा; पिवळा तांबेरा, तपकिरी तांबेरा व काजळीची लक्षणे तपासा. बुरशीनाशक निवडण्यापूर्वी रोग निश्चित करा.","उपलब्ध असल्यास प्रतिकारक्षम किंवा सहनशील वाण वापरा, स्वयंउगवलेला गहू काढा आणि रोगास पोषक हवामानात स्थानिक सल्ला पाळा."]},{"title":"Harvest and grain storage","titleMr":"काढणी व धान्य साठवण","points":["Harvest when ears and straw are dry and grains are hard and mature; avoid delay that exposes the crop to rain, shattering or lodging.","Thresh and clean grain carefully. Dry grain to the safe moisture level specified by local storage guidance before bagging.","Store in clean, dry, pest-managed bins or bags on raised pallets; inspect periodically for moisture, insects and rodents."],"pointsMr":["ओंब्या व काड कोरडे होऊन दाणे कठीण व परिपक्व झाल्यावर काढणी करा. पाऊस, दाणे गळणे किंवा लोळणे यांचा धोका वाढेल असा विलंब टाळा.","मळणी व स्वच्छता काळजीपूर्वक करा. पोत्यात भरण्यापूर्वी स्थानिक साठवण मार्गदर्शनानुसार दाणे सुरक्षित ओलावा पातळीपर्यंत वाळवा.","स्वच्छ, कोरड्या व कीडमुक्त कोठारात उंच पॅलेटवर पोती किंवा डबे ठेवा; ओलावा, कीड व उंदीर यांची नियमित तपासणी करा."]}]},
-{id:"onion",en:"Onion",mr:"कांदा",season:"Rabi / Kharif / Late Kharif depending on region",intro:"A shallow-rooted bulb crop. Season-specific varieties, healthy seedlings and careful moisture management are important.",introMr:"उथळ मुळांचे कंदपीक. हंगामानुसार योग्य वाण, निरोगी रोपे व काळजीपूर्वक ओलावा व्यवस्थापन महत्त्वाचे आहे.",stages:["Nursery raising","Transplanting","Leaf growth","Bulb initiation and enlargement","Maturity, harvest and curing"],stagesMr:["रोपवाटिका","पुनर्लागवड","पानांची वाढ","गड्डा निर्मिती व वाढ","परिपक्वता, काढणी व सुकवणी"],nutrient:"Choose varieties and nutrient schedules for the specific season. Use soil-test-based balanced nutrition; avoid excessive nitrogen near maturity because it can affect neck fall and storage quality.",nutrientMr:"विशिष्ट हंगामासाठी योग्य वाण व खत वेळापत्रक निवडा. माती परीक्षणानुसार संतुलित अन्नद्रव्ये द्या; पक्वतेच्या जवळ नत्राचा अतिरेक टाळा, कारण गळ व साठवण गुणवत्तेवर परिणाम होऊ शकतो.",water:"Maintain uniform moisture during establishment and bulb enlargement. Both moisture stress and waterlogging can affect bulb size and disease incidence. Reduce irrigation near maturity as locally advised.",waterMr:"स्थापना व गड्डा वाढीच्या काळात एकसमान ओलावा ठेवा. पाण्याचा ताण व पाणी साचणे या दोन्हींचा गड्ड्याच्या आकारावर व रोगांवर परिणाम होऊ शकतो. पक्वतेच्या जवळ स्थानिक सल्ल्यानुसार पाणी कमी करा.",risks:["Thrips","Purple blotch","Stemphylium blight","Downy mildew"],risksMr:["फुलकिडे","जांभळा करपा","स्टेमफिलियम करपा","केवडा"],harvest:"Harvest at suitable maturity and cure with good ventilation. Separate damaged bulbs and store sound bulbs in a dry, ventilated structure.",harvestMr:"योग्य परिपक्वतेला काढणी करून हवेशीर ठिकाणी सुकवणी करा. खराब गड्डे वेगळे करून चांगले गड्डे कोरड्या व हवेशीर जागेत साठवा.",fieldGuide:[{"title":"Nursery and transplanting","titleMr":"रोपवाटिका व पुनर्लागवड","points":["Select a variety suited to the season and market purpose; kharif, late-kharif and rabi onions have different variety and management requirements.","Raise seedlings in a well-drained nursery using healthy seed. Avoid overcrowding and monitor damping-off; do not use diseased seedlings.","Transplant healthy, uniform seedlings at the locally recommended age and spacing. Avoid planting too deep or burying the growing point."],"pointsMr":["हंगाम व बाजारातील उपयोगानुसार वाण निवडा; खरीप, उशिरा खरीप व रब्बी कांद्याच्या वाण व व्यवस्थापनाच्या गरजा वेगळ्या असतात.","निरोगी बियाण्यापासून चांगला निचरा असलेल्या वाफ्यावर रोपे तयार करा. दाट पेरणी टाळा व रोप कोलमडण्याच्या रोगावर लक्ष ठेवा; रोगट रोपे वापरू नका.","स्थानिक शिफारशीनुसार वयाची व एकसमान निरोगी रोपे योग्य अंतरावर लावा. खूप खोल लागवड करून वाढीचा बिंदू मातीखाली गाडू नका."]},{"title":"Nutrition and moisture management","titleMr":"खत व ओलावा व्यवस्थापन","points":["Use soil-test-based fertilizer planning and well-decomposed organic matter. Nutrient schedules differ by season, soil and variety.","Maintain uniform moisture during establishment and bulb enlargement; shallow roots make onion sensitive to moisture fluctuations.","Prevent waterlogging and reduce irrigation near maturity according to local recommendations. Excess late nitrogen or water can delay maturity and reduce storage quality."],"pointsMr":["माती परीक्षणानुसार खत नियोजन व पूर्ण कुजलेले सेंद्रिय खत वापरा. हंगाम, जमीन व वाणानुसार खत वेळापत्रक बदलते.","रोपांची स्थापना व गड्डा वाढीच्या काळात एकसमान ओलावा ठेवा; उथळ मुळांमुळे कांदा ओलाव्यातील बदलांना संवेदनशील असतो.","पाणी साचू देऊ नका व पक्वतेच्या जवळ स्थानिक शिफारशीनुसार पाणी कमी करा. उशिरा जास्त नत्र किंवा पाणी दिल्यास पक्वता व साठवण गुणवत्ता कमी होऊ शकते."]},{"title":"Thrips and disease scouting","titleMr":"फुलकिडे व रोग निरीक्षण","points":["Inspect inner leaves and leaf bases for thrips, silvery streaks and curling. Monitor regularly, especially in dry weather.","Watch for purple blotch, Stemphylium blight and downy mildew; leaf spots can look similar, so confirm diagnosis before treatment.","Use clean nursery practices, crop rotation, suitable spacing and field sanitation. If intervention is needed, follow current local recommendations and registered labels."],"pointsMr":["आतील पाने व पानांच्या बुंध्याजवळ फुलकिडे, चंदेरी ओरखडे व पाने वाकडी होण्याची लक्षणे तपासा. विशेषतः कोरड्या हवेत नियमित निरीक्षण करा.","जांभळा करपा, स्टेमफिलियम करपा व केवडा यांवर लक्ष ठेवा; पानांवरील डाग सारखे दिसू शकतात, म्हणून उपायापूर्वी रोगनिदान करा.","स्वच्छ रोपवाटिका, पीक फेरपालट, योग्य अंतर व शेत स्वच्छता राखा. उपाय आवश्यक असल्यास अद्ययावत स्थानिक शिफारस व नोंदणीकृत उत्पादनांचे लेबल पाळा."]},{"title":"Bulb maturity, harvest and storage","titleMr":"गड्डा परिपक्वता, काढणी व साठवण","points":["Harvest when necks soften and tops fall naturally for the variety and season; maturity timing differs between kharif and rabi crops.","Lift bulbs carefully and cure in a dry, shaded, well-ventilated place. Avoid injury to necks and outer scales.","Sort out thick-necked, damaged, sprouted or diseased bulbs. Store suitable cured bulbs with good ventilation and inspect regularly."],"pointsMr":["वाण व हंगामानुसार माना मऊ होऊन पाती नैसर्गिकरीत्या लोळू लागल्यावर काढणी करा; खरीप व रब्बी कांद्याची पक्वता वेळ वेगळी असू शकते.","गड्डे काळजीपूर्वक उपटून कोरड्या, सावलीच्या व हवेशीर ठिकाणी सुकवा. माना व बाहेरील आवरणाला इजा होऊ देऊ नका.","जाड मान असलेले, जखमी, मोड आलेले किंवा रोगट गड्डे वेगळे करा. योग्यरीत्या सुकवलेले गड्डे हवेशीर ठिकाणी ठेवा व नियमित तपासा."]}]},
-{id:"sugarcane",en:"Sugarcane",mr:"ऊस",season:"Planting windows vary by region / लागवडीचा हंगाम प्रदेशानुसार",intro:"A long-duration commercial crop. Healthy setts, land preparation, water management and ratoon care are central to crop performance.",introMr:"दीर्घ कालावधीचे व्यापारी पीक. निरोगी बेणे, जमीन तयारी, पाणी व्यवस्थापन व खोडवा व्यवस्थापन महत्त्वाचे आहे.",stages:["Sett selection and planting","Germination","Tillering","Grand growth","Maturity and harvest"],stagesMr:["बेणे निवड व लागवड","उगवण","फुटवे फुटणे","जलद वाढ","परिपक्वता व तोडणी"],nutrient:"Use soil-test-based nutrient plans and regionally recommended varieties. Organic matter, balanced macro- and micronutrients, and correct timing support growth. Ratoon crops need separate assessment.",nutrientMr:"माती परीक्षणानुसार खत नियोजन व प्रादेशिक शिफारशीतील वाण वापरा. सेंद्रिय पदार्थ, प्रमुख व सूक्ष्म अन्नद्रव्यांचा समतोल व योग्य वेळ महत्त्वाची आहे. खोडवा पिकासाठी स्वतंत्र नियोजन करा.",water:"Sugarcane has a long water requirement, but irrigation frequency depends on soil, weather, growth stage and method. Prevent waterlogging and use drainage channels where needed.",waterMr:"उसाला दीर्घ काळ पाण्याची गरज असते; मात्र पाण्याची वारंवारता जमीन, हवामान, वाढीची अवस्था व पद्धतीवर अवलंबून असते. पाणी साचू देऊ नका व गरजेनुसार निचऱ्याचे चर ठेवा.",risks:["Early shoot borer","Top borer","Pyrilla","Red rot and smut"],risksMr:["खोडकिडा","शेंडा पोखरणारी अळी","पायरीला","तांबेरा कुज व काणी"],harvest:"Harvest at suitable maturity according to variety and local mill schedule. Avoid unnecessary delay after maturity and handle cane carefully.",harvestMr:"वाण व स्थानिक कारखान्याच्या वेळापत्रकानुसार योग्य परिपक्वतेला तोडणी करा. पक्वतेनंतर अनावश्यक विलंब टाळा व ऊस काळजीपूर्वक हाताळा.",fieldGuide:[{"title":"Seed cane selection and planting","titleMr":"बेणे निवड व लागवड","points":["Use healthy, true-to-type seed cane from a reliable source and a variety recommended for the agro-climatic zone and planting season.","Reject setts showing red rot, smut, drying or borer damage. Use only the locally recommended sett preparation and seed treatment protocol.","Prepare a well-levelled field with drainage and plant at the recommended season, spacing and sett rate; these vary with planting method and region."],"pointsMr":["विश्वसनीय स्रोताकडून निरोगी व शुद्ध वाणाचे बेणे घ्या. हवामान विभाग व लागवड हंगामासाठी शिफारस केलेला वाण निवडा.","तांबेरा कुज, काणी, वाळणे किंवा खोडकिडीची इजा असलेले बेणे नाकारावे. स्थानिक शिफारशीनुसारच बेणे तयार करणे व बीजप्रक्रिया करा.","समतल जमीन व निचऱ्याची व्यवस्था करा. लागवडीची वेळ, अंतर व बेणे प्रमाण पद्धत व प्रदेशानुसार शिफारशीतून ठरवा."]},{"title":"Nutrition, earthing-up and interculture","titleMr":"खत, भर व आंतरमशागत","points":["Base nutrient planning on soil testing, variety, expected yield and local recommendations; split nitrogen and potassium as advised for the planting system.","Keep the crop weed-managed during early growth and earth up at the recommended stage to support canes and manage lodging risk.","Retain or apply clean trash mulch where recommended to conserve moisture and suppress weeds; avoid spreading diseased cane trash."],"pointsMr":["माती परीक्षण, वाण, अपेक्षित उत्पादन व स्थानिक शिफारशीनुसार खत नियोजन करा; लागवड पद्धतीनुसार नत्र व पालाशचे हप्ते द्या.","सुरुवातीच्या वाढीत तण नियंत्रण ठेवा व शिफारशीत अवस्थेत भर द्या; त्यामुळे उसाला आधार मिळतो व लोळण्याचा धोका कमी होण्यास मदत होते.","शिफारस असल्यास स्वच्छ पाचटाचे आच्छादन करून ओलावा टिकवा व तण कमी करा; रोगट उसाचे पाचट पसरवू नका."]},{"title":"Irrigation and drainage","titleMr":"सिंचन व निचरा","points":["Schedule irrigation according to soil texture, weather, crop stage and irrigation method; avoid following a fixed interval regardless of field conditions.","Maintain adequate moisture during germination, tillering and grand growth. Avoid water stress during active cane elongation.","Provide drainage during heavy rain and avoid prolonged waterlogging, which can impair roots and increase disease risk."],"pointsMr":["जमिनीचा प्रकार, हवामान, पिकाची अवस्था व सिंचन पद्धतीनुसार पाणी द्या; शेतातील परिस्थिती न पाहता ठरावीक अंतराने पाणी देऊ नका.","उगवण, फुटवे व जलद वाढीच्या काळात पुरेसा ओलावा ठेवा. उसाची सक्रिय लांबी वाढत असताना पाण्याचा ताण टाळा.","अतिवृष्टीत निचऱ्याची व्यवस्था करा. दीर्घकाळ पाणी साचल्यास मुळांवर परिणाम होतो व रोगाचा धोका वाढू शकतो."]},{"title":"Pest, disease and ratoon management","titleMr":"कीड, रोग व खोडवा व्यवस्थापन","points":["Scout for early shoot borer, top borer and pyrilla; inspect dead hearts, shot holes, top leaves and leaf undersides.","Watch for red rot and smut. Remove and destroy affected clumps as advised; do not use infected canes as seed material.","For ratoon, manage stubble and gaps promptly, remove diseased stools and follow separate nutrient, irrigation and weed-management recommendations."],"pointsMr":["खोडकिडा, शेंडा पोखरणारी अळी व पायरीला यांचे निरीक्षण करा; मृत गाभा, पानांवरील छिद्रे, शेंडे व पानांची खालची बाजू तपासा.","तांबेरा कुज व काणीची लक्षणे पाहा. शिफारशीनुसार बाधित बेटे काढून नष्ट करा; रोगट ऊस बेण्यासाठी वापरू नका.","खोडवा पिकात खुंट व्यवस्थापन व रिकाम्या जागांची भर वेळेत करा, रोगट बेटे काढा आणि खत, पाणी व तण व्यवस्थापन स्वतंत्र शिफारशीनुसार करा."]},{"title":"Maturity and harvest","titleMr":"परिपक्वता व तोडणी","points":["Harvest according to variety maturity, crop condition and the sugar factory's cutting schedule; avoid harvesting immature cane.","Keep the interval between cutting and delivery as short as practical and avoid unnecessary burning or damage to cane.","Remove trash and diseased residues as locally advised and plan the next crop or ratoon based on field health."],"pointsMr":["वाणाची परिपक्वता, पिकाची स्थिती व साखर कारखान्याच्या तोडणी वेळापत्रकानुसार तोडणी करा; अपरिपक्व ऊस तोडू नका.","तोडणी व कारखान्यात ऊस पोहोचवण्यातील अंतर शक्य तितके कमी ठेवा. अनावश्यक जाळणे किंवा उसाला इजा करणे टाळा.","स्थानिक सल्ल्यानुसार पाचट व रोगट अवशेष व्यवस्थापित करा आणि शेताच्या आरोग्यानुसार पुढील पीक किंवा खोडव्याचे नियोजन करा."]}]}
+  {
+    "id": "cotton",
+    "en": "Cotton",
+    "mr": "कापूस",
+    "season": "Kharif / खरीप",
+    "intro": "A major fibre crop. Establishment, balanced nutrition, moisture management and regular scouting are important.",
+    "introMr": "महत्त्वाचे तंतू पीक. योग्य उगवण, संतुलित अन्नद्रव्ये, ओलावा व्यवस्थापन आणि नियमित निरीक्षण महत्त्वाचे आहे.",
+    "stages": [
+      "Sowing and establishment",
+      "Vegetative growth",
+      "Squaring and flowering",
+      "Boll development",
+      "Boll opening and picking"
+    ],
+    "stagesMr": [
+      "पेरणी व उगवण",
+      "शाकीय वाढ",
+      "पाते व फुलधारणा",
+      "बोंडांची वाढ",
+      "बोंड फुटणे व वेचणी"
+    ],
+    "nutrient": "Base nutrient decisions on soil testing, variety, yield target and local university recommendations. Avoid excess nitrogen, which can promote rank growth and delay maturity. Consider sulphur and micronutrients only where deficiency is established.",
+    "nutrientMr": "माती परीक्षण, वाण, अपेक्षित उत्पादन आणि स्थानिक कृषी विद्यापीठांच्या शिफारशींनुसार खत नियोजन करा. नत्राचा अतिरेक टाळा; त्यामुळे अनावश्यक शाकीय वाढ व पक्वतेस विलंब होऊ शकतो. गंधक व सूक्ष्म अन्नद्रव्ये कमतरता निश्चित झाल्यावरच द्या.",
+    "water": "Avoid prolonged waterlogging. Protect the crop from moisture stress during flowering and boll development. Irrigation scheduling depends on soil texture, rainfall and crop stage.",
+    "waterMr": "जास्त काळ पाणी साचू देऊ नका. फुलधारणा व बोंडवाढीच्या काळात पाण्याचा ताण टाळा. पाणी नियोजन जमिनीचा प्रकार, पाऊस व पिकाची अवस्था यांवर ठरवा.",
+    "risks": [
+      "Pink bollworm",
+      "American bollworm / other bollworms",
+      "Aphids and jassids",
+      "Locally reported leaf curl and wilt diseases"
+    ],
+    "risksMr": [
+      "गुलाबी बोंडअळी",
+      "अमेरिकन व इतर बोंडअळ्या",
+      "मावा व तुडतुडे",
+      "स्थानिक पातळीवरील पानगुंडाळी व मर रोग"
+    ],
+    "harvest": "Pick fully opened, dry kapas at suitable intervals. Keep kapas clean and dry; separate stained or wet material.",
+    "harvestMr": "पूर्ण उमललेला व कोरडा कापूस योग्य अंतराने वेचावा. कापूस स्वच्छ व कोरडा ठेवावा; डाग पडलेला किंवा ओला कापूस वेगळा ठेवा.",
+    "fieldGuide": [
+      {
+        "title": "Sowing and crop establishment",
+        "titleMr": "पेरणी व पीक स्थापना",
+        "points": [
+          "Follow the locally recommended June sowing window for the region; avoid very early sowing that can expose the crop to pink bollworm earlier in the season.",
+          "Use certified seed of a locally recommended variety or hybrid. Follow the seed packet instructions for the prescribed non-Bt refuge, where applicable.",
+          "Ensure a uniform plant stand. Final spacing and plant population depend on the cultivar, soil and local VNMKV/MPKV recommendation."
+        ],
+        "pointsMr": [
+          "प्रदेशासाठी शिफारस केलेल्या जूनमधील पेरणी कालावधीचे पालन करा. अतिलवकर पेरणीमुळे गुलाबी बोंडअळीचा प्रादुर्भाव लवकर होण्याचा धोका वाढू शकतो.",
+          "प्रमाणित वाण किंवा संकरित बियाणे वापरा. लागू असल्यास बियाण्याच्या पाकिटावरील बिगर-Bt refuge बाबतच्या सूचनांचे पालन करा.",
+          "एकसमान रोपसंख्या राखा. योग्य अंतर व रोपसंख्या वाण, जमीन आणि VNMKV/MPKV च्या स्थानिक शिफारशींनुसार ठरवा."
+        ]
+      },
+      {
+        "title": "Stage-wise field monitoring",
+        "titleMr": "वाढीच्या टप्प्यानुसार निरीक्षण",
+        "points": [
+          "Vegetative stage: inspect the growing points and underside of leaves for aphids, jassids, whiteflies and natural enemies.",
+          "Squaring and flowering: inspect squares, flowers and young bolls regularly; record shedding and damage rather than spraying by calendar.",
+          "Boll development: cut and inspect sample green bolls for internal pink bollworm larvae; look for rosette flowers and damaged or fallen fruiting bodies."
+        ],
+        "pointsMr": [
+          "शाकीय वाढीच्या काळात शेंड्यावरील वाढ व पानांची खालची बाजू तपासून मावा, तुडतुडे, पांढरी माशी आणि मित्रकीटकांचे निरीक्षण करा.",
+          "पाते व फुलधारणेच्या काळात पाते, फुले आणि लहान बोंडे नियमित तपासा. ठरावीक तारखेनुसार फवारणी न करता गळ व नुकसान नोंदवा.",
+          "बोंडवाढीच्या काळात नमुना हिरवी बोंडे फोडून आतील गुलाबी बोंडअळी तपासा. गुलाबी/गुच्छ फुले आणि गळलेली किंवा बाधित बोंडे शोधा."
+        ]
+      },
+      {
+        "title": "Pink bollworm IPM",
+        "titleMr": "गुलाबी बोंडअळीचे एकात्मिक व्यवस्थापन",
+        "points": [
+          "Use pheromone traps for monitoring and follow the current local advisory for trap type, density and action threshold; trap catches alone are not a spray instruction.",
+          "Collect and destroy rosette flowers, infested green bolls and fallen fruiting bodies; do not leave infested material in the field.",
+          "Conserve predators and parasitoids. Choose a registered insecticide only when field scouting reaches the locally recommended economic threshold; follow label dose, waiting period and safety directions.",
+          "After final picking, terminate the crop promptly as advised and destroy stalks and residues to reduce carry-over."
+        ],
+        "pointsMr": [
+          "फेरोमोन सापळे निरीक्षणासाठी वापरा. सापळ्याचा प्रकार, संख्या व पुढील कृतीसाठी अद्ययावत स्थानिक कृषी सल्ला पाळा; केवळ सापळ्यातील पतंगांवरून फवारणी ठरवू नका.",
+          "गुलाबी बोंडअळीची गुलाबी/गुच्छ फुले, बाधित हिरवी बोंडे व गळलेली फळधारणा गोळा करून नष्ट करा. बाधित अवशेष शेतात ठेवू नका.",
+          "मित्रकीटकांचे संवर्धन करा. शेतातील निरीक्षणात स्थानिक आर्थिक नुकसान पातळी गाठल्यासच नोंदणीकृत कीटकनाशक निवडा; लेबलवरील मात्रा, प्रतीक्षा कालावधी व सुरक्षिततेच्या सूचना पाळा.",
+          "शेवटच्या वेचणीनंतर शिफारशीनुसार पीक वेळेत संपवा आणि खोडे व अवशेष नष्ट करा."
+        ]
+      },
+      {
+        "title": "Nutrition and irrigation decisions",
+        "titleMr": "खत व पाणी नियोजन",
+        "points": [
+          "Base N-P-K-S and micronutrient decisions on a current soil test, crop history and locally recommended yield target.",
+          "Split nitrogen as recommended locally; avoid excess nitrogen and late heavy doses that can prolong vegetative growth.",
+          "Avoid waterlogging. Prevent moisture stress during flowering and boll filling; schedule irrigation using soil moisture, rainfall and soil type."
+        ],
+        "pointsMr": [
+          "नत्र-स्फुरद-पालाश-गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण, मागील पीक आणि स्थानिक उत्पादन लक्ष्यावर आधारित करा.",
+          "स्थानिक शिफारशीनुसार नत्राचे हप्ते द्या. नत्राचा अतिरेक व उशिरा मोठी मात्रा देणे टाळा; त्यामुळे शाकीय वाढ लांबू शकते.",
+          "पाणी साचू देऊ नका. फुलधारणा व बोंड भरण्याच्या काळात पाण्याचा ताण टाळा; जमिनीतील ओलावा, पाऊस व जमिनीचा प्रकार पाहून पाणी द्या."
+        ]
+      },
+      {
+        "title": "Pink bollworm: identification and IPM",
+        "titleMr": "गुलाबी बोंडअळी: ओळख व एकात्मिक व्यवस्थापन",
+        "points": [
+          "Look for rosette flowers, entry holes on green bolls and pink larvae inside sample bolls. Open representative bolls to confirm.",
+          "Monitor pheromone traps according to current local advice; trap catches are a warning signal, not an automatic spray trigger.",
+          "Collect and destroy rosette flowers and infested bolls. Conserve natural enemies and follow local crop-termination advice after final picking.",
+          "Use a registered cotton pink bollworm product only when field scouting and local thresholds justify intervention; follow label directions and waiting periods."
+        ],
+        "pointsMr": [
+          "गुलाबी/गुच्छ फुले, हिरव्या बोंडांवरील छिद्रे व नमुना बोंडे फोडल्यावर आतील गुलाबी अळी तपासा.",
+          "स्थानिक सल्ल्यानुसार फेरोमोन सापळे लावा; सापळ्यातील पतंग हे इशारा आहेत, फवारणीचा थेट आदेश नाही.",
+          "गुलाबी/गुच्छ फुले व बाधित बोंडे गोळा करून नष्ट करा. मित्रकीटक जपा व शेवटच्या वेचणीनंतर स्थानिक पीक-संपवणी सल्ला पाळा.",
+          "शेतातील निरीक्षण व स्थानिक आर्थिक नुकसान पातळीवरून गरज ठरल्यासच कापसावरील गुलाबी बोंडअळीसाठी नोंदणीकृत उत्पादन लेबलनुसार वापरा."
+        ]
+      },
+      {
+        "title": "Sucking pests and disease scouting",
+        "titleMr": "रसशोषक किडी व रोग निरीक्षण",
+        "points": [
+          "Inspect leaf undersides and tender shoots for aphids, jassids and whiteflies; record pest levels and check for predators and parasitoids.",
+          "Avoid excessive nitrogen and manage alternate-host weeds around the field. Conserve ladybird beetles, lacewings and other natural enemies.",
+          "For leaf curl, wilt or unusual spots, obtain field diagnosis because viral, fungal, bacterial and non-infectious symptoms can overlap.",
+          "Use selective registered products only when local thresholds and expert advice support action; protect pollinators and follow label restrictions."
+        ],
+        "pointsMr": [
+          "पानांच्या खालच्या बाजूला व कोवळ्या शेंड्यांवर मावा, तुडतुडे व पांढरी माशी तपासा. कीड संख्या नोंदवा आणि मित्रकीटकही पाहा.",
+          "नत्राचा अतिरेक टाळा व पर्यायी यजमान तण नियंत्रित करा. ढालकिडे, क्रायसोपा व इतर मित्रकीटक जपा.",
+          "पानगुंडाळी, मर किंवा अनोखे डाग दिसल्यास शेतातील निदान घ्या; विषाणू, बुरशी, जिवाणू व अजैविक लक्षणे सारखी असू शकतात.",
+          "स्थानिक आर्थिक नुकसान पातळी व तज्ज्ञ सल्ल्यानुसारच निवडक नोंदणीकृत उत्पादने वापरा. परागीभवन करणारे कीटक सुरक्षित ठेवा व लेबल पाळा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ginger",
+    "en": "Ginger",
+    "mr": "आले",
+    "season": "Usually Kharif / प्रामुख्याने खरीप",
+    "intro": "A rhizome crop requiring healthy planting material, fertile soil and especially good drainage.",
+    "introMr": "निरोगी बेणे, सुपीक जमीन आणि विशेषतः चांगला निचरा आवश्यक असलेले कंदपीक.",
+    "stages": [
+      "Land preparation",
+      "Rhizome planting",
+      "Sprouting",
+      "Vegetative growth and rhizome development",
+      "Maturity and harvest"
+    ],
+    "stagesMr": [
+      "जमीन तयारी",
+      "बेणे लागवड",
+      "कोंब उगवण",
+      "शाकीय वाढ व कंदवाढ",
+      "परिपक्वता व काढणी"
+    ],
+    "nutrient": "Use soil-test-based nutrient planning and well-decomposed organic matter. Avoid fresh undecomposed manure and excessive fertilizer. Correct drainage before planting; nutrient needs vary with soil and production system.",
+    "nutrientMr": "माती परीक्षणानुसार खत नियोजन व पूर्ण कुजलेले सेंद्रिय खत वापरा. ताजे न कुजलेले शेणखत व खतांचा अतिरेक टाळा. लागवडीपूर्वी निचऱ्याची व्यवस्था करा; जमिनी व उत्पादन पद्धतीनुसार गरज बदलते.",
+    "water": "Maintain even moisture during active growth, but never allow standing water. Raised beds, channels and mulching can help manage drainage and moisture.",
+    "waterMr": "वाढीच्या काळात जमिनीत एकसमान ओलावा ठेवा; मात्र पाणी साचू देऊ नका. गादीवाफे, चर व आच्छादनामुळे निचरा व ओलावा व्यवस्थापनास मदत होते.",
+    "risks": [
+      "Soft rot / rhizome rot",
+      "Bacterial wilt",
+      "Shoot borer",
+      "Leaf spot and blight"
+    ],
+    "risksMr": [
+      "कंदकुज",
+      "जिवाणू मर",
+      "खोड पोखरणारी अळी",
+      "पानावरील ठिपके व करपा"
+    ],
+    "harvest": "Harvest according to crop maturity and intended use. Lift rhizomes carefully to avoid injury; cure and store under clean, suitable conditions.",
+    "harvestMr": "पिकाची परिपक्वता व उपयोग पाहून काढणी करा. कंदांना इजा होणार नाही याची काळजी घ्या; स्वच्छ व योग्य परिस्थितीत सुकवणी व साठवण करा.",
+    "fieldGuide": [
+      {
+        "title": "Seed rhizome selection and planting",
+        "titleMr": "बेणे निवड व लागवड",
+        "points": [
+          "Select firm, healthy, disease-free rhizomes from a reliable source. Reject pieces with soft rot, lesions or insect damage.",
+          "ICAR advisories describe seed pieces around 20–25 g with at least two healthy buds; use the locally recommended seed rate and spacing for the production system.",
+          "Plant with a viable bud facing upward at about 4–5 cm depth. Planting time varies with rainfall, irrigation and local conditions; follow the regional calendar."
+        ],
+        "pointsMr": [
+          "विश्वसनीय स्रोताकडून घट्ट, निरोगी व रोगमुक्त बेणे निवडा. कंदकुज, डाग किंवा किडीची इजा असलेले बेणे नाकारावे.",
+          "ICAR च्या सल्ल्यानुसार साधारण २०–२५ ग्रॅम वजनाचा व किमान दोन निरोगी डोळे असलेला बेण्याचा तुकडा वापरता येतो. प्रत्यक्ष बेणे प्रमाण व अंतर स्थानिक शिफारशीनुसार ठरवा.",
+          "जिवंत डोळा वरच्या दिशेने ठेवून साधारण ४–५ सेंमी खोलीवर लागवड करा. लागवडीची वेळ पाऊस, सिंचन व स्थानिक परिस्थितीनुसार बदलते; प्रादेशिक वेळापत्रक पाळा."
+        ]
+      },
+      {
+        "title": "Raised beds, drainage and mulching",
+        "titleMr": "गादीवाफे, निचरा व आच्छादन",
+        "points": [
+          "Prepare raised beds or ridges with effective side drains, especially in heavy soils and high-rainfall periods. Never allow standing water around rhizomes.",
+          "Apply clean organic mulch after planting to conserve moisture, suppress weeds and protect soil structure. Replenish according to decomposition and local recommendations.",
+          "Keep drainage channels open throughout the monsoon; divert runoff from diseased areas and avoid moving contaminated soil or water into healthy beds."
+        ],
+        "pointsMr": [
+          "विशेषतः भारी जमिनीत व अतिवृष्टीच्या काळात बाजूला प्रभावी चर असलेले गादीवाफे किंवा सरी-वरंबे तयार करा. कंदाभोवती पाणी साचू देऊ नका.",
+          "लागवडीनंतर स्वच्छ सेंद्रिय आच्छादन द्या. त्यामुळे ओलावा टिकतो, तण कमी होते व जमिनीची रचना सुधारण्यास मदत होते. कुजण्याच्या प्रमाणानुसार व स्थानिक शिफारशीनुसार आच्छादन पुन्हा द्या.",
+          "पावसाळाभर निचऱ्याचे चर मोकळे ठेवा. रोगट भागातील पाणी निरोगी वाफ्यांत जाऊ देऊ नका आणि दूषित माती/पाणी हलवू नका."
+        ]
+      },
+      {
+        "title": "Nutrition and crop care",
+        "titleMr": "खत व्यवस्थापन व आंतरमशागत",
+        "points": [
+          "Incorporate only well-decomposed organic manure. Plan N-P-K and any secondary or micronutrients from soil-test results and the relevant Maharashtra recommendation.",
+          "Do not copy fertilizer schedules from another state or production system without checking local soil and recommendation; split applications depend on the local package of practices.",
+          "Weed before mulching or earthing-up. Avoid deep hoeing that injures shallow rhizomes and roots."
+        ],
+        "pointsMr": [
+          "पूर्ण कुजलेले सेंद्रिय खतच मिसळा. नत्र-स्फुरद-पालाश तसेच दुय्यम किंवा सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण व महाराष्ट्रातील लागू शिफारशींनुसार करा.",
+          "दुसऱ्या राज्यातील किंवा वेगळ्या उत्पादन पद्धतीतील खत वेळापत्रक स्थानिक जमीन व शिफारशी तपासल्याशिवाय वापरू नका. खतांचे हप्ते स्थानिक पीक पद्धतीनुसार ठरतात.",
+          "आच्छादन किंवा भर देण्यापूर्वी तण काढा. उथळ कंद व मुळांना इजा होईल अशी खोल खुरपणी टाळा."
+        ]
+      },
+      {
+        "title": "Rhizome rot and bacterial wilt watch",
+        "titleMr": "कंदकुज व जिवाणू मर निरीक्षण",
+        "points": [
+          "Watch for yellowing and wilting leaves, soft or water-soaked rhizomes, foul smell and plant collapse; these symptoms need field diagnosis because causes can differ.",
+          "Remove severely affected clumps with surrounding infected material; do not use affected rhizomes as seed. Clean tools and prevent drainage water from moving from affected to healthy plots.",
+          "Use healthy seed, crop rotation and good drainage as the foundation. Use Trichoderma or Pseudomonas products only when suitable for the crop and according to their label and local agricultural advice."
+        ],
+        "pointsMr": [
+          "पाने पिवळी पडणे व कोमेजणे, कंद मऊ/पाणचट होणे, दुर्गंधी आणि झाड कोसळणे ही लक्षणे पाहा. कारणे वेगवेगळी असू शकतात, त्यामुळे शेतातील निदान आवश्यक आहे.",
+          "तीव्र बाधित बेट सभोवतालच्या रोगट अवशेषांसह काढून नष्ट करा. बाधित कंद बेण्यासाठी वापरू नका. अवजारे स्वच्छ ठेवा व रोगट भागातील पाणी निरोगी भागात जाऊ देऊ नका.",
+          "निरोगी बेणे, पीक फेरपालट व चांगला निचरा हा पाया आहे. ट्रायकोडर्मा किंवा स्यूडोमोनास उत्पादने पिकासाठी योग्य असल्यासच आणि लेबल व स्थानिक कृषी सल्ल्यानुसार वापरा."
+        ]
+      },
+      {
+        "title": "Maturity and harvest",
+        "titleMr": "परिपक्वता व काढणी",
+        "points": [
+          "Harvesting age depends on variety and intended use (fresh/green or mature dry ginger); confirm maturity from crop condition and local recommendation rather than a fixed date.",
+          "Lift clumps carefully to minimize rhizome injury. Separate damaged or diseased rhizomes and keep harvested produce clean.",
+          "For storage, cure and dry only as required for the intended market; store sound rhizomes in a clean, ventilated, suitable place."
+        ],
+        "pointsMr": [
+          "काढणीचे वय वाण आणि उपयोगावर (हिरवे/ताजे किंवा पूर्ण परिपक्व सुंठ) अवलंबून असते. ठरावीक दिवसांऐवजी पिकाची अवस्था व स्थानिक शिफारस पाहून काढणी करा.",
+          "कंदांना इजा होणार नाही अशा पद्धतीने बेटे उपटा. खराब किंवा रोगट कंद वेगळे करा आणि काढलेला माल स्वच्छ ठेवा.",
+          "बाजारातील उपयोगानुसार आवश्यक तेवढी सुकवणी व प्रक्रिया करा. निरोगी कंद स्वच्छ, हवेशीर व योग्य ठिकाणी साठवा."
+        ]
+      },
+      {
+        "title": "Soft rot and bacterial wilt: identification and containment",
+        "titleMr": "कंदकुज व जिवाणू मर: ओळख व प्रसार नियंत्रण",
+        "points": [
+          "Yellowing, wilting and soft or water-soaked rhizomes may indicate rot; bacterial wilt can also cause wilting despite moist soil. Symptoms overlap, so seek field diagnosis.",
+          "Remove severely affected clumps with diseased material as locally advised. Never use affected rhizomes as seed.",
+          "Keep drainage channels open; prevent runoff from affected beds entering healthy beds. Clean tools and containers between plots.",
+          "Use healthy seed rhizomes, raised beds, crop rotation and sanitation. Do not assume a universal spray can cure an established bacterial infection."
+        ],
+        "pointsMr": [
+          "पाने पिवळी पडणे, झाड कोमेजणे व कंद मऊ/पाणचट होणे ही कंदकुजीची लक्षणे असू शकतात. ओलसर जमिनीतही मर दिसल्यास जिवाणू मर शकतो; लक्षणे मिळतीजुळती असल्याने निदान घ्या.",
+          "स्थानिक सल्ल्यानुसार तीव्र बाधित बेटे रोगट भागासह काढून नष्ट करा. बाधित कंद बेण्यासाठी वापरू नका.",
+          "निचऱ्याचे चर मोकळे ठेवा. रोगट वाफ्यातील पाणी निरोगी वाफ्यात जाऊ देऊ नका. वाफ्यांदरम्यान अवजारे व भांडी स्वच्छ करा.",
+          "निरोगी बेणे, गादीवाफे, पीक फेरपालट व स्वच्छता पाळा. स्थापित जिवाणू संसर्गावर एकच सार्वत्रिक फवारणी उपाय आहे असे समजू नका."
+        ]
+      },
+      {
+        "title": "Shoot borer and leaf spot / blight",
+        "titleMr": "खोड पोखरणारी अळी व पानावरील ठिपके / करपा",
+        "points": [
+          "For shoot borer, look for bore holes, frass and a yellowing or drying central shoot; split suspicious shoots to confirm the larva.",
+          "For leaf spot or blight, monitor expanding spots, yellow margins and premature drying, especially in humid weather. Confirm the cause before choosing a fungicide.",
+          "Remove infested shoots or severely diseased leaves where locally recommended; maintain field sanitation and avoid prolonged leaf wetness.",
+          "Use only registered products labelled for ginger and the diagnosed pest or disease. Follow label safety, application and waiting-period instructions."
+        ],
+        "pointsMr": [
+          "खोड पोखरणाऱ्या अळीसाठी छिद्रे, अळीची विष्ठा व मधला कोंब पिवळा/वाळणे तपासा. संशयित कोंब चिरून अळीची खात्री करा.",
+          "पानावरील ठिपके किंवा करप्यासाठी वाढणारे डाग, पिवळ्या कडा व अकाली पाने वाळणे पाहा; दमट हवेत निरीक्षण वाढवा. बुरशीनाशकापूर्वी कारण निश्चित करा.",
+          "स्थानिक शिफारशीनुसार बाधित कोंब किंवा तीव्र रोगट पाने काढा. शेत स्वच्छ ठेवा व पानांवर दीर्घकाळ ओलावा राहू देऊ नका.",
+          "आले व निदान झालेल्या कीड/रोगासाठी लेबल असलेली नोंदणीकृत उत्पादनेच वापरा. सुरक्षा, वापर व प्रतीक्षा कालावधीच्या सूचना पाळा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "garlic",
+    "en": "Garlic",
+    "mr": "लसूण",
+    "season": "Rabi in many regions / अनेक भागांत रब्बी",
+    "intro": "A bulb crop with a relatively shallow root system. Healthy cloves, suitable soil and steady moisture support bulb development.",
+    "introMr": "उथळ मुळांची कंदपीक. निरोगी पाकळ्या, योग्य जमीन व नियमित ओलावा गड्डा वाढीस मदत करतात.",
+    "stages": [
+      "Clove selection and planting",
+      "Sprouting",
+      "Leaf growth",
+      "Bulb initiation and enlargement",
+      "Maturity and curing"
+    ],
+    "stagesMr": [
+      "पाकळ्या निवड व लागवड",
+      "उगवण",
+      "पानांची वाढ",
+      "गड्डा निर्मिती व वाढ",
+      "परिपक्वता व सुकवणी"
+    ],
+    "nutrient": "Use healthy planting cloves and soil-test-guided nutrient management. Avoid excessive nitrogen late in the season. Organic matter and good soil structure support root and bulb growth.",
+    "nutrientMr": "निरोगी पाकळ्या वापरा व माती परीक्षणानुसार खत व्यवस्थापन करा. हंगामाच्या शेवटी नत्राचा अतिरेक टाळा. सेंद्रिय पदार्थ व भुसभुशीत जमीन मुळांच्या व गड्ड्यांच्या वाढीस मदत करतात.",
+    "water": "Keep moisture reasonably uniform during establishment and bulb enlargement. Waterlogging encourages disease; reduce or stop irrigation near harvest according to local recommendations and soil conditions.",
+    "waterMr": "उगवण व गड्डा वाढीच्या काळात योग्य व एकसमान ओलावा ठेवा. पाणी साचल्यास रोग वाढू शकतात; काढणीपूर्वी स्थानिक शिफारस व जमिनीच्या स्थितीनुसार पाणी कमी किंवा बंद करा.",
+    "risks": [
+      "Thrips",
+      "Purple blotch",
+      "Stemphylium blight",
+      "Basal and storage rots"
+    ],
+    "risksMr": [
+      "फुलकिडे",
+      "जांभळा करपा",
+      "स्टेमफिलियम करपा",
+      "तळकुज व साठवणुकीतील कुज"
+    ],
+    "harvest": "Harvest when tops show maturity signs. Cure bulbs in a shaded, well-ventilated place; store only sound, dry bulbs.",
+    "harvestMr": "पाती परिपक्वतेची लक्षणे दाखवू लागल्यावर काढणी करा. सावलीत व हवेशीर ठिकाणी गड्डे सुकवा; निरोगी व कोरडे गड्डेच साठवा.",
+    "fieldGuide": [
+      {
+        "title": "Clove selection and planting",
+        "titleMr": "पाकळ्या निवड व लागवड",
+        "points": [
+          "Use healthy, true-to-type, disease-free cloves from a reliable source. Reject shrivelled, damaged or rotting cloves.",
+          "Select a locally recommended variety and planting window. Prepare a fine, well-drained seedbed; avoid fields with standing water.",
+          "Keep planting depth and spacing uniform according to the variety and Maharashtra package of practices. Do not use cloves from diseased bulbs."
+        ],
+        "pointsMr": [
+          "विश्वसनीय स्रोताकडून निरोगी, वाणानुसार योग्य व रोगमुक्त पाकळ्या निवडा. सुकलेल्या, तुटलेल्या किंवा कुजलेल्या पाकळ्या वापरू नका.",
+          "स्थानिक शिफारशीतील वाण व लागवड कालावधी निवडा. भुसभुशीत व चांगला निचरा असलेली जमीन तयार करा; पाणी साचणारी जमीन टाळा.",
+          "महाराष्ट्रातील पीक पद्धतीनुसार लागवडीची खोली व अंतर एकसमान ठेवा. रोगट गड्ड्यांतील पाकळ्या बेण्यासाठी वापरू नका."
+        ]
+      },
+      {
+        "title": "Nutrition and irrigation",
+        "titleMr": "खत व पाणी व्यवस्थापन",
+        "points": [
+          "Base nutrient application on soil testing, previous crop and local university recommendations; incorporate only well-decomposed organic matter.",
+          "Maintain even soil moisture during leaf growth and bulb enlargement. Avoid both prolonged dryness and waterlogging.",
+          "Reduce irrigation as the crop approaches maturity according to soil condition and local advice; excessive late irrigation can delay curing and increase storage problems."
+        ],
+        "pointsMr": [
+          "माती परीक्षण, मागील पीक व स्थानिक कृषी विद्यापीठांच्या शिफारशीनुसार खत द्या; पूर्ण कुजलेले सेंद्रिय खतच वापरा.",
+          "पानांची वाढ व गड्डा वाढीच्या काळात जमिनीत एकसमान ओलावा ठेवा. दीर्घकाळ पाण्याचा ताण व पाणी साचणे टाळा.",
+          "पीक पक्वतेकडे जाताना जमीन व स्थानिक सल्ल्यानुसार पाणी कमी करा. उशिरा जास्त पाणी दिल्यास पक्वता व सुकवणी लांबू शकते."
+        ]
+      },
+      {
+        "title": "Weed, pest and disease monitoring",
+        "titleMr": "तण, कीड व रोग निरीक्षण",
+        "points": [
+          "Keep the crop weed-free, especially during early growth; shallow-rooted garlic can be injured by deep hoeing.",
+          "Scout for thrips and leaf symptoms of purple blotch or Stemphylium blight. Distinguish nutrient stress from disease before choosing a control.",
+          "Remove badly affected plant material where practical, avoid overhead irrigation when disease pressure is high, and use only locally recommended registered products when necessary."
+        ],
+        "pointsMr": [
+          "विशेषतः सुरुवातीच्या वाढीत तण नियंत्रण ठेवा; लसणाची मुळे उथळ असल्याने खोल खुरपणीमुळे मुळांना इजा होऊ शकते.",
+          "फुलकिडे तसेच जांभळा करपा किंवा स्टेमफिलियम करप्याची पानांवरील लक्षणे तपासा. नियंत्रण ठरवण्यापूर्वी अन्नद्रव्य कमतरता व रोग यांतील फरक ओळखा.",
+          "शक्य असल्यास तीव्र बाधित अवशेष काढा. रोगाचा प्रादुर्भाव जास्त असताना वरून पाणी देणे टाळा; गरज असल्यास स्थानिक शिफारशीतील नोंदणीकृत उत्पादनेच वापरा."
+        ]
+      },
+      {
+        "title": "Maturity, harvest and storage",
+        "titleMr": "परिपक्वता, काढणी व साठवण",
+        "points": [
+          "Harvest when tops naturally yellow and begin falling and bulbs have reached suitable maturity for the variety; do not rely on a single fixed number of days.",
+          "Lift bulbs carefully and cure in shade with good ventilation. Avoid direct harsh sun or wet curing conditions.",
+          "Store only well-cured, dry, healthy bulbs in a clean, dry and ventilated structure; remove damaged bulbs before storage."
+        ],
+        "pointsMr": [
+          "पाती नैसर्गिकरीत्या पिवळी पडून लोळू लागल्यावर आणि वाणानुसार गड्डे परिपक्व झाल्यावर काढणी करा; ठरावीक दिवसांवरच अवलंबून राहू नका.",
+          "गड्ड्यांना इजा न करता उपटून सावलीत व हवेशीर ठिकाणी सुकवा. कडक उन्हात किंवा ओलसर परिस्थितीत सुकवणी टाळा.",
+          "पूर्ण सुकलेले, निरोगी गड्डेच स्वच्छ, कोरड्या व हवेशीर साठवण जागेत ठेवा; खराब गड्डे आधी वेगळे करा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "soybean",
+    "en": "Soybean",
+    "mr": "सोयाबीन",
+    "season": "Kharif / खरीप",
+    "intro": "An important oilseed and pulse crop. Good seed, timely sowing, effective drainage and early crop establishment are key.",
+    "introMr": "महत्त्वाचे तेलबिया व कडधान्य पीक. चांगले बियाणे, वेळेवर पेरणी, निचरा आणि सुरुवातीची जोमदार वाढ महत्त्वाची आहे.",
+    "stages": [
+      "Germination",
+      "Vegetative growth",
+      "Flowering",
+      "Pod formation and seed filling",
+      "Maturity"
+    ],
+    "stagesMr": [
+      "उगवण",
+      "शाकीय वाढ",
+      "फुलधारणा",
+      "शेंगा व दाणे भरणे",
+      "परिपक्वता"
+    ],
+    "nutrient": "Use suitable varieties and seed treatment/inoculants as recommended locally. Soybean can fix nitrogen when effective nodulation occurs; phosphorus, potassium, sulphur and micronutrient decisions should follow soil tests and local recommendations.",
+    "nutrientMr": "स्थानिक शिफारशीनुसार वाण, बीजप्रक्रिया व जिवाणू संवर्धक वापरा. योग्य गाठी तयार झाल्यास सोयाबीन वातावरणातील नत्र स्थिरीकरण करते; स्फुरद, पालाश, गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षणानुसार करा.",
+    "water": "Avoid waterlogging, especially during heavy monsoon rainfall. Moisture stress during flowering and pod filling can reduce yield; irrigation need depends on rainfall and soil.",
+    "waterMr": "विशेषतः अतिवृष्टीत पाणी साचू देऊ नका. फुलधारणा व शेंगा भरण्याच्या काळातील पाण्याचा ताण उत्पादन कमी करू शकतो; पाण्याची गरज पाऊस व जमिनीवर अवलंबून असते.",
+    "risks": [
+      "Yellow mosaic disease",
+      "Stem fly",
+      "Girdle beetle",
+      "Defoliators including Spodoptera"
+    ],
+    "risksMr": [
+      "पिवळा मोझॅक",
+      "खोडमाशी",
+      "खोड पोखरणारी अळी",
+      "स्पोडोप्टेरा व पाने खाणाऱ्या अळ्या"
+    ],
+    "harvest": "Harvest when most pods are mature and plants show maturity. Timely harvest reduces shattering and weather-related losses; dry seed safely before storage.",
+    "harvestMr": "बहुतेक शेंगा परिपक्व झाल्यावर व झाडे पक्वतेची लक्षणे दाखवू लागल्यावर काढणी करा. वेळेवर काढणीमुळे दाणे गळणे व हवामानामुळे होणारे नुकसान कमी होते; साठवणीपूर्वी दाणे सुरक्षितरीत्या वाळवा.",
+    "fieldGuide": [
+      {
+        "title": "Seed quality, treatment and sowing",
+        "titleMr": "बियाणे गुणवत्ता, बीजप्रक्रिया व पेरणी",
+        "points": [
+          "Use certified seed of a locally recommended variety with good germination and physical purity. Check the current regional sowing window.",
+          "Use seed treatment and Rhizobium/Bradyrhizobium and phosphate-solubilizing inoculants only as recommended for the variety and product; follow compatibility and label instructions.",
+          "Sow into moist soil with a uniform seed depth and plant stand. Ensure functional drainage because waterlogging can damage seedlings and nodulation."
+        ],
+        "pointsMr": [
+          "चांगली उगवणक्षमता व शुद्धता असलेले स्थानिक शिफारशीतील प्रमाणित बियाणे वापरा. चालू हंगामातील प्रादेशिक पेरणी कालावधी तपासा.",
+          "बीजप्रक्रिया तसेच रायझोबियम/ब्रॅडीरायझोबियम व स्फुरद विरघळविणारे जिवाणू संवर्धक फक्त शिफारशीनुसार वापरा; उत्पादनाच्या लेबलवरील सुसंगतता व सूचना पाळा.",
+          "पुरेशा ओलाव्यात एकसमान खोलीवर पेरणी करून योग्य रोपसंख्या राखा. पाणी साचल्यास रोपे व मुळांवरील गाठी बाधित होऊ शकतात; निचरा ठेवा."
+        ]
+      },
+      {
+        "title": "Nodulation and nutrient management",
+        "titleMr": "मुळांवरील गाठी व अन्नद्रव्य व्यवस्थापन",
+        "points": [
+          "Inspect a few plants during early vegetative growth and gently check roots for active nodules; pink or reddish interiors generally indicate active nitrogen fixation.",
+          "Do not assume soybean needs no nutrients. Plan phosphorus, potassium, sulphur and micronutrients from soil-test results and local recommendations.",
+          "Avoid unneeded nitrogen top-dressing; excess nitrogen can suppress nodulation. Correct confirmed deficiencies using locally recommended methods."
+        ],
+        "pointsMr": [
+          "सुरुवातीच्या शाकीय वाढीत काही झाडे अलगद उपटून मुळांवरील गाठी तपासा. गाठीच्या आतील भागाचा गुलाबी किंवा लालसर रंग सक्रिय नत्र स्थिरीकरणाचे सामान्य लक्षण आहे.",
+          "सोयाबीनला अन्नद्रव्यांची गरज नसते असे समजू नका. स्फुरद, पालाश, गंधक व सूक्ष्म अन्नद्रव्यांचे नियोजन माती परीक्षण व स्थानिक शिफारशीनुसार करा.",
+          "गरज नसताना वरून नत्र देणे टाळा; जास्त नत्रामुळे गाठींची निर्मिती कमी होऊ शकते. निश्चित कमतरता स्थानिक शिफारशीनुसार दुरुस्त करा."
+        ]
+      },
+      {
+        "title": "Pest and disease scouting",
+        "titleMr": "कीड व रोग निरीक्षण",
+        "points": [
+          "Scout regularly for stem fly, girdle beetle, defoliators and sucking pests; inspect stems, leaf undersides and the whole canopy.",
+          "Watch for yellow mosaic symptoms and identify likely whitefly-vector activity. Remove isolated severely affected plants where recommended and manage vectors using an integrated approach.",
+          "Use field counts and local economic thresholds rather than calendar spraying. Conserve natural enemies and follow registered product labels and waiting periods."
+        ],
+        "pointsMr": [
+          "खोडमाशी, खोड पोखरणारी भुंगेरी, पाने खाणाऱ्या अळ्या व रसशोषक किडींसाठी नियमित निरीक्षण करा; खोड, पानांची खालची बाजू व संपूर्ण पीक तपासा.",
+          "पिवळ्या मोझॅकची लक्षणे आणि पांढऱ्या माशीची हालचाल पाहा. शिफारस असल्यास वेगळी व तीव्र बाधित झाडे काढा व एकात्मिक पद्धतीने वाहक किडींचे व्यवस्थापन करा.",
+          "ठरावीक तारखेनुसार फवारणी न करता शेतातील संख्या व स्थानिक आर्थिक नुकसान पातळी पाहा. मित्रकीटक जपा आणि नोंदणीकृत उत्पादनांचे लेबल व प्रतीक्षा कालावधी पाळा."
+        ]
+      },
+      {
+        "title": "Harvest and post-harvest",
+        "titleMr": "काढणी व काढणीनंतरची काळजी",
+        "points": [
+          "Harvest when most pods have matured and leaves have yellowed; avoid unnecessary delay because dry pods may shatter.",
+          "Dry harvested plants or threshed seed carefully to a safe storage moisture level; avoid contamination with soil and stones.",
+          "Store clean, dry seed in suitable moisture-proof, pest-managed storage. Keep seed intended for sowing separate and maintain varietal identity."
+        ],
+        "pointsMr": [
+          "बहुतेक शेंगा परिपक्व होऊन पाने पिवळी झाल्यावर काढणी करा. अनावश्यक विलंब केल्यास वाळलेल्या शेंगा फुटून दाणे गळू शकतात.",
+          "काढलेली झाडे किंवा मळणी केलेले दाणे सुरक्षित साठवण ओलावा पातळीपर्यंत काळजीपूर्वक वाळवा; माती व दगड मिसळू देऊ नका.",
+          "स्वच्छ व कोरडे दाणे योग्य ओलावा नियंत्रण व कीड व्यवस्थापन असलेल्या साठवणीत ठेवा. पेरणीसाठीचे बियाणे वेगळे ठेवून वाणाची ओळख जपा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wheat",
+    "en": "Wheat",
+    "mr": "गहू",
+    "season": "Rabi / रब्बी",
+    "intro": "A major cereal crop. Timely sowing, a fine and level seedbed, suitable variety and irrigation at critical stages influence performance.",
+    "introMr": "प्रमुख अन्नधान्य पीक. वेळेवर पेरणी, भुसभुशीत व समतल वाफसा, योग्य वाण आणि महत्त्वाच्या अवस्थांतील पाणी उत्पादनावर परिणाम करतात.",
+    "stages": [
+      "Germination and crown-root initiation",
+      "Tillering",
+      "Stem elongation",
+      "Booting and heading",
+      "Grain filling and maturity"
+    ],
+    "stagesMr": [
+      "उगवण व मुकुटमुळे तयार होणे",
+      "फुटवे फुटणे",
+      "खोड वाढ",
+      "ओंबी बाहेर येणे व फुलोरा",
+      "दाणे भरणे व परिपक्वता"
+    ],
+    "nutrient": "Base fertilizer planning on soil testing, variety, sowing date and local recommendations. Balanced nitrogen, phosphorus, potassium and sulphur are important; split nitrogen timing should follow regional guidance.",
+    "nutrientMr": "माती परीक्षण, वाण, पेरणीची वेळ व स्थानिक शिफारशींनुसार खत नियोजन करा. नत्र, स्फुरद, पालाश व गंधक यांचा समतोल महत्त्वाचा आहे; नत्राचे हप्ते प्रादेशिक शिफारशीनुसार द्या.",
+    "water": "Crown-root initiation is a particularly important irrigation stage. Also monitor moisture around flowering and grain filling. Avoid over-irrigation and lodging risk.",
+    "waterMr": "मुकुटमुळे तयार होण्याची अवस्था पाण्याच्या दृष्टीने विशेष महत्त्वाची आहे. फुलोरा व दाणे भरण्याच्या काळातही ओलावा तपासा. अति पाणी व पीक लोळण्याचा धोका टाळा.",
+    "risks": [
+      "Yellow and brown rust",
+      "Loose smut",
+      "Termites",
+      "Aphids"
+    ],
+    "risksMr": [
+      "पिवळा व तपकिरी तांबेरा",
+      "काजळी",
+      "वाळवी",
+      "मावा"
+    ],
+    "harvest": "Harvest when grains are mature and straw is dry. Dry grain to a safe moisture level and store in clean, pest-protected conditions.",
+    "harvestMr": "दाणे परिपक्व व काड कोरडे झाल्यावर काढणी करा. दाणे सुरक्षित ओलावा पातळीपर्यंत वाळवून स्वच्छ व किडींपासून सुरक्षित ठिकाणी साठवा.",
+    "fieldGuide": [
+      {
+        "title": "Land preparation and timely sowing",
+        "titleMr": "जमीन तयारी व वेळेवर पेरणी",
+        "points": [
+          "Choose a variety suited to the region, sowing window and irrigation availability. Timely sowing helps avoid terminal heat during grain filling.",
+          "Prepare a level, firm but fine seedbed with adequate moisture. Use a seed drill or another method that gives uniform depth and row placement.",
+          "Use certified seed and locally recommended seed rate, spacing and seed treatment; these vary with variety and sowing method."
+        ],
+        "pointsMr": [
+          "प्रदेश, पेरणी कालावधी व सिंचन उपलब्धतेनुसार योग्य वाण निवडा. वेळेवर पेरणी केल्यास दाणे भरण्याच्या काळातील उष्णतेचा धोका कमी होतो.",
+          "पुरेसा ओलावा असलेला समतल, घट्ट पण भुसभुशीत वाफसा तयार करा. बियाणे एकसमान खोलीवर व ओळीत पडेल अशी पेरणी यंत्रणा वापरा.",
+          "प्रमाणित बियाणे वापरा. बियाणे प्रमाण, ओळीतील अंतर व बीजप्रक्रिया वाण व पेरणी पद्धतीनुसार स्थानिक शिफारशीतून ठरवा."
+        ]
+      },
+      {
+        "title": "Nutrient management",
+        "titleMr": "अन्नद्रव्य व्यवस्थापन",
+        "points": [
+          "Base fertilizer planning on soil test, preceding crop, variety and expected yield; do not copy a blanket dose from another farm.",
+          "Apply phosphorus and potassium as advised at sowing and split nitrogen at locally recommended stages to improve use efficiency.",
+          "Monitor crop colour and growth, but confirm suspected micronutrient deficiency before applying corrective products."
+        ],
+        "pointsMr": [
+          "माती परीक्षण, मागील पीक, वाण व अपेक्षित उत्पादनानुसार खत नियोजन करा; दुसऱ्या शेतातील सरसकट मात्रा तशीच वापरू नका.",
+          "शिफारशीनुसार पेरणीवेळी स्फुरद व पालाश द्या आणि नत्राचे हप्ते स्थानिक शिफारशीतील अवस्थांनुसार द्या.",
+          "पिकाचा रंग व वाढ पाहा; सूक्ष्म अन्नद्रव्यांची कमतरता वाटल्यास उपाय करण्यापूर्वी ती निश्चित करा."
+        ]
+      },
+      {
+        "title": "Critical irrigation and crop care",
+        "titleMr": "महत्त्वाच्या अवस्था व पाणी व्यवस्थापन",
+        "points": [
+          "Crown-root initiation, commonly around 20–25 days after sowing depending on temperature and establishment, is a highly sensitive irrigation stage.",
+          "Further irrigation at tillering, jointing, flowering and grain filling should be scheduled according to soil moisture, rainfall and local recommendations.",
+          "Avoid excessive irrigation, especially on light soils or windy conditions, because lodging and nutrient loss may occur."
+        ],
+        "pointsMr": [
+          "तापमान व उगवणीनुसार साधारण पेरणीनंतर २०–२५ दिवसांच्या आसपास येणारी मुकुटमुळे तयार होण्याची अवस्था पाण्याच्या दृष्टीने अतिशय संवेदनशील असते.",
+          "फुटवे, खोडाची वाढ, फुलोरा व दाणे भरण्याच्या अवस्थांतील पुढील पाणी जमिनीतील ओलावा, पाऊस व स्थानिक शिफारशीनुसार ठरवा.",
+          "विशेषतः हलक्या जमिनीत किंवा वाऱ्याच्या परिस्थितीत अति सिंचन टाळा; पीक लोळणे व अन्नद्रव्ये वाहून जाण्याचा धोका असतो."
+        ]
+      },
+      {
+        "title": "Weeds, pests and diseases",
+        "titleMr": "तण, कीड व रोग व्यवस्थापन",
+        "points": [
+          "Control weeds early while the crop is establishing; select mechanical or registered chemical options only according to crop stage and label.",
+          "Scout for aphids and termites and inspect for yellow rust, brown rust and loose smut. Confirm disease identity before choosing a fungicide.",
+          "Use resistant or tolerant varieties where available, remove volunteer wheat and follow local advisories during conducive weather."
+        ],
+        "pointsMr": [
+          "पीक स्थिरावत असताना सुरुवातीच्या काळात तण नियंत्रण करा. यांत्रिक किंवा नोंदणीकृत रासायनिक पर्याय पिकाची अवस्था व लेबल पाहूनच निवडा.",
+          "मावा व वाळवीचे निरीक्षण करा; पिवळा तांबेरा, तपकिरी तांबेरा व काजळीची लक्षणे तपासा. बुरशीनाशक निवडण्यापूर्वी रोग निश्चित करा.",
+          "उपलब्ध असल्यास प्रतिकारक्षम किंवा सहनशील वाण वापरा, स्वयंउगवलेला गहू काढा आणि रोगास पोषक हवामानात स्थानिक सल्ला पाळा."
+        ]
+      },
+      {
+        "title": "Harvest and grain storage",
+        "titleMr": "काढणी व धान्य साठवण",
+        "points": [
+          "Harvest when ears and straw are dry and grains are hard and mature; avoid delay that exposes the crop to rain, shattering or lodging.",
+          "Thresh and clean grain carefully. Dry grain to the safe moisture level specified by local storage guidance before bagging.",
+          "Store in clean, dry, pest-managed bins or bags on raised pallets; inspect periodically for moisture, insects and rodents."
+        ],
+        "pointsMr": [
+          "ओंब्या व काड कोरडे होऊन दाणे कठीण व परिपक्व झाल्यावर काढणी करा. पाऊस, दाणे गळणे किंवा लोळणे यांचा धोका वाढेल असा विलंब टाळा.",
+          "मळणी व स्वच्छता काळजीपूर्वक करा. पोत्यात भरण्यापूर्वी स्थानिक साठवण मार्गदर्शनानुसार दाणे सुरक्षित ओलावा पातळीपर्यंत वाळवा.",
+          "स्वच्छ, कोरड्या व कीडमुक्त कोठारात उंच पॅलेटवर पोती किंवा डबे ठेवा; ओलावा, कीड व उंदीर यांची नियमित तपासणी करा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "onion",
+    "en": "Onion",
+    "mr": "कांदा",
+    "season": "Rabi / Kharif / Late Kharif depending on region",
+    "intro": "A shallow-rooted bulb crop. Season-specific varieties, healthy seedlings and careful moisture management are important.",
+    "introMr": "उथळ मुळांचे कंदपीक. हंगामानुसार योग्य वाण, निरोगी रोपे व काळजीपूर्वक ओलावा व्यवस्थापन महत्त्वाचे आहे.",
+    "stages": [
+      "Nursery raising",
+      "Transplanting",
+      "Leaf growth",
+      "Bulb initiation and enlargement",
+      "Maturity, harvest and curing"
+    ],
+    "stagesMr": [
+      "रोपवाटिका",
+      "पुनर्लागवड",
+      "पानांची वाढ",
+      "गड्डा निर्मिती व वाढ",
+      "परिपक्वता, काढणी व सुकवणी"
+    ],
+    "nutrient": "Choose varieties and nutrient schedules for the specific season. Use soil-test-based balanced nutrition; avoid excessive nitrogen near maturity because it can affect neck fall and storage quality.",
+    "nutrientMr": "विशिष्ट हंगामासाठी योग्य वाण व खत वेळापत्रक निवडा. माती परीक्षणानुसार संतुलित अन्नद्रव्ये द्या; पक्वतेच्या जवळ नत्राचा अतिरेक टाळा, कारण गळ व साठवण गुणवत्तेवर परिणाम होऊ शकतो.",
+    "water": "Maintain uniform moisture during establishment and bulb enlargement. Both moisture stress and waterlogging can affect bulb size and disease incidence. Reduce irrigation near maturity as locally advised.",
+    "waterMr": "स्थापना व गड्डा वाढीच्या काळात एकसमान ओलावा ठेवा. पाण्याचा ताण व पाणी साचणे या दोन्हींचा गड्ड्याच्या आकारावर व रोगांवर परिणाम होऊ शकतो. पक्वतेच्या जवळ स्थानिक सल्ल्यानुसार पाणी कमी करा.",
+    "risks": [
+      "Thrips",
+      "Purple blotch",
+      "Stemphylium blight",
+      "Downy mildew"
+    ],
+    "risksMr": [
+      "फुलकिडे",
+      "जांभळा करपा",
+      "स्टेमफिलियम करपा",
+      "केवडा"
+    ],
+    "harvest": "Harvest at suitable maturity and cure with good ventilation. Separate damaged bulbs and store sound bulbs in a dry, ventilated structure.",
+    "harvestMr": "योग्य परिपक्वतेला काढणी करून हवेशीर ठिकाणी सुकवणी करा. खराब गड्डे वेगळे करून चांगले गड्डे कोरड्या व हवेशीर जागेत साठवा.",
+    "fieldGuide": [
+      {
+        "title": "Nursery and transplanting",
+        "titleMr": "रोपवाटिका व पुनर्लागवड",
+        "points": [
+          "Select a variety suited to the season and market purpose; kharif, late-kharif and rabi onions have different variety and management requirements.",
+          "Raise seedlings in a well-drained nursery using healthy seed. Avoid overcrowding and monitor damping-off; do not use diseased seedlings.",
+          "Transplant healthy, uniform seedlings at the locally recommended age and spacing. Avoid planting too deep or burying the growing point."
+        ],
+        "pointsMr": [
+          "हंगाम व बाजारातील उपयोगानुसार वाण निवडा; खरीप, उशिरा खरीप व रब्बी कांद्याच्या वाण व व्यवस्थापनाच्या गरजा वेगळ्या असतात.",
+          "निरोगी बियाण्यापासून चांगला निचरा असलेल्या वाफ्यावर रोपे तयार करा. दाट पेरणी टाळा व रोप कोलमडण्याच्या रोगावर लक्ष ठेवा; रोगट रोपे वापरू नका.",
+          "स्थानिक शिफारशीनुसार वयाची व एकसमान निरोगी रोपे योग्य अंतरावर लावा. खूप खोल लागवड करून वाढीचा बिंदू मातीखाली गाडू नका."
+        ]
+      },
+      {
+        "title": "Nutrition and moisture management",
+        "titleMr": "खत व ओलावा व्यवस्थापन",
+        "points": [
+          "Use soil-test-based fertilizer planning and well-decomposed organic matter. Nutrient schedules differ by season, soil and variety.",
+          "Maintain uniform moisture during establishment and bulb enlargement; shallow roots make onion sensitive to moisture fluctuations.",
+          "Prevent waterlogging and reduce irrigation near maturity according to local recommendations. Excess late nitrogen or water can delay maturity and reduce storage quality."
+        ],
+        "pointsMr": [
+          "माती परीक्षणानुसार खत नियोजन व पूर्ण कुजलेले सेंद्रिय खत वापरा. हंगाम, जमीन व वाणानुसार खत वेळापत्रक बदलते.",
+          "रोपांची स्थापना व गड्डा वाढीच्या काळात एकसमान ओलावा ठेवा; उथळ मुळांमुळे कांदा ओलाव्यातील बदलांना संवेदनशील असतो.",
+          "पाणी साचू देऊ नका व पक्वतेच्या जवळ स्थानिक शिफारशीनुसार पाणी कमी करा. उशिरा जास्त नत्र किंवा पाणी दिल्यास पक्वता व साठवण गुणवत्ता कमी होऊ शकते."
+        ]
+      },
+      {
+        "title": "Thrips and disease scouting",
+        "titleMr": "फुलकिडे व रोग निरीक्षण",
+        "points": [
+          "Inspect inner leaves and leaf bases for thrips, silvery streaks and curling. Monitor regularly, especially in dry weather.",
+          "Watch for purple blotch, Stemphylium blight and downy mildew; leaf spots can look similar, so confirm diagnosis before treatment.",
+          "Use clean nursery practices, crop rotation, suitable spacing and field sanitation. If intervention is needed, follow current local recommendations and registered labels."
+        ],
+        "pointsMr": [
+          "आतील पाने व पानांच्या बुंध्याजवळ फुलकिडे, चंदेरी ओरखडे व पाने वाकडी होण्याची लक्षणे तपासा. विशेषतः कोरड्या हवेत नियमित निरीक्षण करा.",
+          "जांभळा करपा, स्टेमफिलियम करपा व केवडा यांवर लक्ष ठेवा; पानांवरील डाग सारखे दिसू शकतात, म्हणून उपायापूर्वी रोगनिदान करा.",
+          "स्वच्छ रोपवाटिका, पीक फेरपालट, योग्य अंतर व शेत स्वच्छता राखा. उपाय आवश्यक असल्यास अद्ययावत स्थानिक शिफारस व नोंदणीकृत उत्पादनांचे लेबल पाळा."
+        ]
+      },
+      {
+        "title": "Bulb maturity, harvest and storage",
+        "titleMr": "गड्डा परिपक्वता, काढणी व साठवण",
+        "points": [
+          "Harvest when necks soften and tops fall naturally for the variety and season; maturity timing differs between kharif and rabi crops.",
+          "Lift bulbs carefully and cure in a dry, shaded, well-ventilated place. Avoid injury to necks and outer scales.",
+          "Sort out thick-necked, damaged, sprouted or diseased bulbs. Store suitable cured bulbs with good ventilation and inspect regularly."
+        ],
+        "pointsMr": [
+          "वाण व हंगामानुसार माना मऊ होऊन पाती नैसर्गिकरीत्या लोळू लागल्यावर काढणी करा; खरीप व रब्बी कांद्याची पक्वता वेळ वेगळी असू शकते.",
+          "गड्डे काळजीपूर्वक उपटून कोरड्या, सावलीच्या व हवेशीर ठिकाणी सुकवा. माना व बाहेरील आवरणाला इजा होऊ देऊ नका.",
+          "जाड मान असलेले, जखमी, मोड आलेले किंवा रोगट गड्डे वेगळे करा. योग्यरीत्या सुकवलेले गड्डे हवेशीर ठिकाणी ठेवा व नियमित तपासा."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sugarcane",
+    "en": "Sugarcane",
+    "mr": "ऊस",
+    "season": "Planting windows vary by region / लागवडीचा हंगाम प्रदेशानुसार",
+    "intro": "A long-duration commercial crop. Healthy setts, land preparation, water management and ratoon care are central to crop performance.",
+    "introMr": "दीर्घ कालावधीचे व्यापारी पीक. निरोगी बेणे, जमीन तयारी, पाणी व्यवस्थापन व खोडवा व्यवस्थापन महत्त्वाचे आहे.",
+    "stages": [
+      "Sett selection and planting",
+      "Germination",
+      "Tillering",
+      "Grand growth",
+      "Maturity and harvest"
+    ],
+    "stagesMr": [
+      "बेणे निवड व लागवड",
+      "उगवण",
+      "फुटवे फुटणे",
+      "जलद वाढ",
+      "परिपक्वता व तोडणी"
+    ],
+    "nutrient": "Use soil-test-based nutrient plans and regionally recommended varieties. Organic matter, balanced macro- and micronutrients, and correct timing support growth. Ratoon crops need separate assessment.",
+    "nutrientMr": "माती परीक्षणानुसार खत नियोजन व प्रादेशिक शिफारशीतील वाण वापरा. सेंद्रिय पदार्थ, प्रमुख व सूक्ष्म अन्नद्रव्यांचा समतोल व योग्य वेळ महत्त्वाची आहे. खोडवा पिकासाठी स्वतंत्र नियोजन करा.",
+    "water": "Sugarcane has a long water requirement, but irrigation frequency depends on soil, weather, growth stage and method. Prevent waterlogging and use drainage channels where needed.",
+    "waterMr": "उसाला दीर्घ काळ पाण्याची गरज असते; मात्र पाण्याची वारंवारता जमीन, हवामान, वाढीची अवस्था व पद्धतीवर अवलंबून असते. पाणी साचू देऊ नका व गरजेनुसार निचऱ्याचे चर ठेवा.",
+    "risks": [
+      "Early shoot borer",
+      "Top borer",
+      "Pyrilla",
+      "Red rot and smut"
+    ],
+    "risksMr": [
+      "खोडकिडा",
+      "शेंडा पोखरणारी अळी",
+      "पायरीला",
+      "तांबेरा कुज व काणी"
+    ],
+    "harvest": "Harvest at suitable maturity according to variety and local mill schedule. Avoid unnecessary delay after maturity and handle cane carefully.",
+    "harvestMr": "वाण व स्थानिक कारखान्याच्या वेळापत्रकानुसार योग्य परिपक्वतेला तोडणी करा. पक्वतेनंतर अनावश्यक विलंब टाळा व ऊस काळजीपूर्वक हाताळा.",
+    "fieldGuide": [
+      {
+        "title": "Seed cane selection and planting",
+        "titleMr": "बेणे निवड व लागवड",
+        "points": [
+          "Use healthy, true-to-type seed cane from a reliable source and a variety recommended for the agro-climatic zone and planting season.",
+          "Reject setts showing red rot, smut, drying or borer damage. Use only the locally recommended sett preparation and seed treatment protocol.",
+          "Prepare a well-levelled field with drainage and plant at the recommended season, spacing and sett rate; these vary with planting method and region."
+        ],
+        "pointsMr": [
+          "विश्वसनीय स्रोताकडून निरोगी व शुद्ध वाणाचे बेणे घ्या. हवामान विभाग व लागवड हंगामासाठी शिफारस केलेला वाण निवडा.",
+          "तांबेरा कुज, काणी, वाळणे किंवा खोडकिडीची इजा असलेले बेणे नाकारावे. स्थानिक शिफारशीनुसारच बेणे तयार करणे व बीजप्रक्रिया करा.",
+          "समतल जमीन व निचऱ्याची व्यवस्था करा. लागवडीची वेळ, अंतर व बेणे प्रमाण पद्धत व प्रदेशानुसार शिफारशीतून ठरवा."
+        ]
+      },
+      {
+        "title": "Nutrition, earthing-up and interculture",
+        "titleMr": "खत, भर व आंतरमशागत",
+        "points": [
+          "Base nutrient planning on soil testing, variety, expected yield and local recommendations; split nitrogen and potassium as advised for the planting system.",
+          "Keep the crop weed-managed during early growth and earth up at the recommended stage to support canes and manage lodging risk.",
+          "Retain or apply clean trash mulch where recommended to conserve moisture and suppress weeds; avoid spreading diseased cane trash."
+        ],
+        "pointsMr": [
+          "माती परीक्षण, वाण, अपेक्षित उत्पादन व स्थानिक शिफारशीनुसार खत नियोजन करा; लागवड पद्धतीनुसार नत्र व पालाशचे हप्ते द्या.",
+          "सुरुवातीच्या वाढीत तण नियंत्रण ठेवा व शिफारशीत अवस्थेत भर द्या; त्यामुळे उसाला आधार मिळतो व लोळण्याचा धोका कमी होण्यास मदत होते.",
+          "शिफारस असल्यास स्वच्छ पाचटाचे आच्छादन करून ओलावा टिकवा व तण कमी करा; रोगट उसाचे पाचट पसरवू नका."
+        ]
+      },
+      {
+        "title": "Irrigation and drainage",
+        "titleMr": "सिंचन व निचरा",
+        "points": [
+          "Schedule irrigation according to soil texture, weather, crop stage and irrigation method; avoid following a fixed interval regardless of field conditions.",
+          "Maintain adequate moisture during germination, tillering and grand growth. Avoid water stress during active cane elongation.",
+          "Provide drainage during heavy rain and avoid prolonged waterlogging, which can impair roots and increase disease risk."
+        ],
+        "pointsMr": [
+          "जमिनीचा प्रकार, हवामान, पिकाची अवस्था व सिंचन पद्धतीनुसार पाणी द्या; शेतातील परिस्थिती न पाहता ठरावीक अंतराने पाणी देऊ नका.",
+          "उगवण, फुटवे व जलद वाढीच्या काळात पुरेसा ओलावा ठेवा. उसाची सक्रिय लांबी वाढत असताना पाण्याचा ताण टाळा.",
+          "अतिवृष्टीत निचऱ्याची व्यवस्था करा. दीर्घकाळ पाणी साचल्यास मुळांवर परिणाम होतो व रोगाचा धोका वाढू शकतो."
+        ]
+      },
+      {
+        "title": "Pest, disease and ratoon management",
+        "titleMr": "कीड, रोग व खोडवा व्यवस्थापन",
+        "points": [
+          "Scout for early shoot borer, top borer and pyrilla; inspect dead hearts, shot holes, top leaves and leaf undersides.",
+          "Watch for red rot and smut. Remove and destroy affected clumps as advised; do not use infected canes as seed material.",
+          "For ratoon, manage stubble and gaps promptly, remove diseased stools and follow separate nutrient, irrigation and weed-management recommendations."
+        ],
+        "pointsMr": [
+          "खोडकिडा, शेंडा पोखरणारी अळी व पायरीला यांचे निरीक्षण करा; मृत गाभा, पानांवरील छिद्रे, शेंडे व पानांची खालची बाजू तपासा.",
+          "तांबेरा कुज व काणीची लक्षणे पाहा. शिफारशीनुसार बाधित बेटे काढून नष्ट करा; रोगट ऊस बेण्यासाठी वापरू नका.",
+          "खोडवा पिकात खुंट व्यवस्थापन व रिकाम्या जागांची भर वेळेत करा, रोगट बेटे काढा आणि खत, पाणी व तण व्यवस्थापन स्वतंत्र शिफारशीनुसार करा."
+        ]
+      },
+      {
+        "title": "Maturity and harvest",
+        "titleMr": "परिपक्वता व तोडणी",
+        "points": [
+          "Harvest according to variety maturity, crop condition and the sugar factory's cutting schedule; avoid harvesting immature cane.",
+          "Keep the interval between cutting and delivery as short as practical and avoid unnecessary burning or damage to cane.",
+          "Remove trash and diseased residues as locally advised and plan the next crop or ratoon based on field health."
+        ],
+        "pointsMr": [
+          "वाणाची परिपक्वता, पिकाची स्थिती व साखर कारखान्याच्या तोडणी वेळापत्रकानुसार तोडणी करा; अपरिपक्व ऊस तोडू नका.",
+          "तोडणी व कारखान्यात ऊस पोहोचवण्यातील अंतर शक्य तितके कमी ठेवा. अनावश्यक जाळणे किंवा उसाला इजा करणे टाळा.",
+          "स्थानिक सल्ल्यानुसार पाचट व रोगट अवशेष व्यवस्थापित करा आणि शेताच्या आरोग्यानुसार पुढील पीक किंवा खोडव्याचे नियोजन करा."
+        ]
+      }
+    ]
+  }
 ];
 
 window.AGRISMART_CROP_SOURCES = [
