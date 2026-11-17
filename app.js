@@ -141,6 +141,20 @@ function showCropDetail(crop){
       panel.append(p);
     }
   });
+  if (Array.isArray(crop.fieldGuide)) {
+    crop.fieldGuide.forEach(section => {
+      const h = document.createElement("h3");
+      h.textContent = mr ? section.titleMr : section.title;
+      panel.append(h);
+      const ul = document.createElement("ul");
+      (mr ? section.pointsMr : section.points).forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul.append(li);
+      });
+      panel.append(ul);
+    });
+  }
   panel.hidden = false;
   panel.scrollIntoView({behavior:"smooth",block:"start"});
 }
